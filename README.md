@@ -4,8 +4,8 @@ some of the basic problem solving test
 Pada repository ini terdapat beberapa contoh soal latihan problem solving yang menurut saya sangat dasar (basic) untuk dipelajari. Beberapa di antaranya meliputi:
 1. Segitiga Pascal
 2. Bilangan Prima
-3. Anagram
-4. Pangram 
+3. Pangram
+4. Anagram 
 
 <br>
 Dan sebagainya ...
