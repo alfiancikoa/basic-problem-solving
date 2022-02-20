@@ -12,12 +12,15 @@ import (
 */
 
 func Pangram(s string) string {
+	// simpan seluruh karakter ke dalam map
 	var hashmap = map[string]int{}
+	// proses pengambilan karakter yang digunakan
 	for _, value := range strings.ToLower(s) {
 		if value != ' ' {
 			hashmap[string(value)]++
 		}
 	}
+	// cek apakah jumlah huruf sebanyak 26 berarti semua karakter huruf dipakai
 	if len(hashmap) == 26 {
 		return "pangram"
 	}
