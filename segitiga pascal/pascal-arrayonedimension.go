@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 func Pascal(num int) {
+	// membuat array untuk menampung nilai
 	array := make([]int, num+1)
 	prev := 1
 	fmt.Println(1)
