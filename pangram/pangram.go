@@ -5,6 +5,12 @@ import (
 	"strings"
 )
 
+/*
+	Problem:
+	mengecek apakah kalimat merupakan pangram atau bukan?
+	pangram merupakan atau kalimat holoalfabetis, adalah suatu kalimat yang menggunakan semua huruf dalam suatu aksara paling tidak satu kal
+*/
+
 func Pangram(s string) string {
 	var hashmap = map[string]int{}
 	for _, value := range strings.ToLower(s) {
