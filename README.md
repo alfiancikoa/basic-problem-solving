@@ -5,7 +5,7 @@ Pada repository ini terdapat beberapa contoh soal latihan problem solving yang m
 1. Segitiga Pascal
 2. Bilangan Prima
 3. Anagram
-4. Pangram
+4. Pangram 
 
 <br>
 Dan sebagainya ...
