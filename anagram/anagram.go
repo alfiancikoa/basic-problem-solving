@@ -2,6 +2,12 @@ package main
 
 import "fmt"
 
+/*
+	Problem
+	Mencari jumlah karakter yang akan diubah agar bisa menjadi anagram
+	Anagram adalah salah satu jenis permainan kata yang huruf-huruf di kata awal biasanya diacak untuk membentuk kata lain atau sebuah kalimat. Anagram sering dipakai sebagai kode
+*/
+
 func anagram(s string) int32 {
 	var result int32
 	var hashmap = map[string]int{}
