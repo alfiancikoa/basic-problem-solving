@@ -5,10 +5,17 @@ import (
 	"math"
 )
 
+/*
+	Problem:
+	Menentukan apakah bilangan yang di-inputkan merupakan bilangan prima atau bukan
+*/
+
 func isPrime(n int) bool {
+	// jika nilai n lebih kecil dari dua, langsung direturn false karena sudah pasti bukan bilangan prima
 	if n < 2 {
 		return false
 	}
+	// proses pengecekan bilangan prima
 	for i := 2; i <= int(math.Sqrt(float64(n))); i++ {
 		if n%i == 0 {
 			return false
