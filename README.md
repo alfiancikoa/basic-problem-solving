@@ -6,6 +6,7 @@ Pada repository ini terdapat beberapa contoh soal latihan problem solving yang m
 2. Bilangan Prima
 3. Pangram
 4. Anagram 
+5. MaxSumArray
 
 <br>
 Dan sebagainya ...
