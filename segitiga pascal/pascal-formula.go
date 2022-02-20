@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 func Pascal(num int) {
+	// membuat segitiga pascal dengan menggunakan rumus
 	for i := 1; i < num+1; i++ {
 		pascal := 1
 		for j := 1; j < i+1; j++ {
