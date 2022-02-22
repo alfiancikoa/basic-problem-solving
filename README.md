@@ -16,5 +16,5 @@ Pada repository ini terdapat beberapa contoh soal latihan problem solving yang m
 <br>
 Dan sebagainya ...
 
-Thankyou,
+Thankyou,<br>
 alfiancikoa
