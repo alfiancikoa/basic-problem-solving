@@ -6,10 +6,11 @@ Pada repository ini terdapat beberapa contoh soal latihan problem solving yang m
 2. Bilangan Prima
 3. Pangram
 4. Anagram 
-5. Find Most Appear Number
+5. Find Index of Sub String
 6. Remove Duplicate Number
-7. Max Sum Array
-8. Pair With Target
+7. Find Most Appear Number
+8. Max Sum Array
+9. Pair With Target
 
 <br>
 Dan sebagainya ...
