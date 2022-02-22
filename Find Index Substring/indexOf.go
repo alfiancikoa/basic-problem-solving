@@ -10,6 +10,7 @@ import "fmt"
 */
 
 func indexOf(a string, b string) int {
+	// Proses pencarian berbasis linear search hanya saja yan dicari dua karakter
 	for i := 0; i <= len(a)-len(b); i++ {
 		str := a[i : i+len(b)]
 		if str == b {
