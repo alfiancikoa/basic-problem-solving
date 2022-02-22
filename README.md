@@ -1,5 +1,5 @@
 # basic-problem-solving
-Mari kawan kita asah kemampuan logika dan problem solving kita, agar kiranya dapat bermanfaat di suatu hari kedepan
+Mari kawan2 ku yang berbahagia kita asah kemampuan logika dan problem solving kita, agar kiranya dapat bermanfaat di suatu hari kedepan
 
 Pada repository ini terdapat beberapa contoh soal latihan problem solving yang menurut saya sangat dasar (basic) untuk dipelajari. Beberapa di antaranya meliputi:
 1. Segitiga Pascal
@@ -16,5 +16,6 @@ Pada repository ini terdapat beberapa contoh soal latihan problem solving yang m
 <br>
 Dan sebagainya ...
 
+contoh soal di atas berdasarkan pengalaman penulis
 Thankyou,<br>
 alfiancikoa
