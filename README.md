@@ -7,10 +7,11 @@ Pada repository ini terdapat beberapa contoh soal latihan problem solving yang m
 3. Pangram
 4. Anagram 
 5. Find Index of Sub String
-6. Remove Duplicate Number
-7. Find Most Appear Number
-8. Max Sum Array
-9. Pair With Target
+6. Palindrome
+7. Remove Duplicate Number
+8. Find Most Appear Number
+9. Max Sum Array
+10. Pair With Target
 
 <br>
 Dan sebagainya ...
