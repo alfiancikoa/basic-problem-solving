@@ -2,6 +2,13 @@ package main
 
 import "fmt"
 
+/*
+	Problem:
+	Carilah pada index ke berapa posisi substring tersebut?
+	jika ada maka return indexnya
+	jika tidak maka return -1
+*/
+
 func indexOf(a string, b string) int {
 	for i := 0; i <= len(a)-len(b); i++ {
 		str := a[i : i+len(b)]
