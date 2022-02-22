@@ -16,6 +16,6 @@ Pada repository ini terdapat beberapa contoh soal latihan problem solving yang m
 <br>
 Dan sebagainya ...
 
-contoh soal di atas berdasarkan pengalaman penulis
+contoh soal di atas berdasarkan pengalaman penulis <br>
 Thankyou,<br>
 alfiancikoa
