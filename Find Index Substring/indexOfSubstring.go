@@ -4,7 +4,7 @@ import "fmt"
 
 /*
 	Problem:
-	Carilah pada index ke berapa posisi substring tersebut?
+	Carilah pada index ke berapa posisi substring (b) tersebut?
 	jika ada maka return indexnya
 	jika tidak maka return -1
 */
