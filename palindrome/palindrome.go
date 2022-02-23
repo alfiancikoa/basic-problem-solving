@@ -5,6 +5,19 @@ import (
 	"strings"
 )
 
+/*
+	Problem:
+	Mengecek Apakah kata atau kalimat input merupakan palindrome atau bukan
+	- input:
+		satu atau lebih kata bertipe string, (a-z,A-Z)
+	- output:
+		status apakah palindrome atau bukan (true or false)
+	- example :
+		1.	#input 	= "kodok"	#output = true
+		1.	#input 	= "kakak"	#output = true
+		1.	#input 	= "makan"	#output = false
+*/
+
 func palindrome(str string) bool {
 	// remove blank space and make it lower
 	input := strings.ToLower(strings.ReplaceAll(str, " ", ""))
