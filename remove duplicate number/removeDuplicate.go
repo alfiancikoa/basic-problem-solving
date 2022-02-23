@@ -12,6 +12,9 @@ import (
 		deretan bilangan bulat yang dari 0 s/d n (0<n<=100)
 	- output:
 		deretan angka dalam array yang tidak duplikat dan terurut
+	- example :
+		#input 	= [1 1 2 3 4 4 5]
+		#output = [1 2 3 4 5]
 */
 
 func removeDup(arr []int) []int {
