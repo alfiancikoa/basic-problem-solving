@@ -13,8 +13,9 @@ import (
 	- output:
 		deretan angka dalam array yang tidak duplikat dan terurut
 	- example :
-		#input 	= [1 1 2 3 4 4 5]
-		#output = [1 2 3 4 5]
+		1.	#input 	= [1 1 2 3 4 4 5]	#output = [1 2 3 4 5]
+		2.	#input 	= [3,4,2,5,4,1]		#output = [1 2 3 4 5]
+		3.	#input 	= [3,2,1]		#output = [1 2 3]
 */
 
 func removeDup(arr []int) []int {
