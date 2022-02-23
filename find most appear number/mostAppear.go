@@ -2,6 +2,12 @@ package main
 
 import "fmt"
 
+/*
+	Problem:
+	Carilah angka yang sering muncul pada deret array input
+	Jika porsi kemuunculan angka sama semua, maka carilah angka yang nilainya lebih tinggi
+*/
+
 func mostAppear(num []int) int {
 	hashmap := map[int]int{}
 	mostSoFar, mostNumber := 0, 0
@@ -21,4 +27,5 @@ func main() {
 	fmt.Println(mostAppear([]int{5, 5, 1, 1, 2, 3, 10, 9}))               // 5
 	fmt.Println(mostAppear([]int{1, 2, 3, 4, 5, 6}))                      // 6
 	fmt.Println(mostAppear([]int{4, 3, 6, 2, 1, 5}))                      // 6
+	fmt.Println(mostAppear([]int{1, 1, 1, 1, 1, 1}))                      // 1
 }
