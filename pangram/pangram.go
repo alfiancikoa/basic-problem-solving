@@ -8,7 +8,15 @@ import (
 /*
 	Problem:
 	mengecek apakah kalimat merupakan pangram atau bukan?
-	pangram merupakan atau kalimat holoalfabetis, adalah suatu kalimat yang menggunakan semua huruf dalam suatu aksara paling tidak satu kal
+	pangram merupakan atau kalimat holoalfabetis, adalah suatu kalimat yang menggunakan semua huruf dalam suatu aksara paling tidak satu kali
+	artinya dalam satu kalimat tersebut semua huruf alphabet digunakan mulai dari a - z
+	- input:
+		satu atau lebih kata yang menjadi kalimat bertipe string, (a-z,A-Z)
+	- output:
+		status apakah kalimat tersebut merupakan pangram atau bukan(pangram or not pangram)
+	- example :
+		1.	#input 	= "The quick brown fox jumps over the lazy dog"						#output = pangram
+		2.	#input 	= "ini bukan pangram karena tidak menggunakan seluruh alphabet"		#output = not pangram
 */
 
 func Pangram(s string) string {
