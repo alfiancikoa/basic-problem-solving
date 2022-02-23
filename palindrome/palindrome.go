@@ -14,8 +14,8 @@ import (
 		status apakah palindrome atau bukan (true or false)
 	- example :
 		1.	#input 	= "kodok"	#output = true
-		1.	#input 	= "kakak"	#output = true
-		1.	#input 	= "makan"	#output = false
+		2.	#input 	= "kakak"	#output = true
+		3.	#input 	= "makan"	#output = false
 */
 
 func palindrome(str string) bool {
