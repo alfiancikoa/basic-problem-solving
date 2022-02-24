@@ -4,8 +4,16 @@ import "fmt"
 
 /*
 	Problem:
-	Carilah angka yang sering muncul pada deret array input
-	Jika porsi kemuunculan angka sama semua, maka carilah angka yang nilainya lebih tinggi
+	Mencari angka yang paling sering muncul
+	jika porsi kemunculan angka sama, maka cari angka yang nilainya lebih tinggi
+	- input:
+		deretan angka berupa array 1 dimensi bilangan positif
+	- output:
+		angka yang paling sering muncul
+	- example :
+		1.	#input 	= [90 8 90 68 101 4 1 2 101 101]	#output = 101
+		2.	#input 	= [1 2 3 4 5 6]						#output = 6
+		3.	#input 	= [5 5 1 1 2 3 10 9]				#output = 5
 */
 
 func mostAppear(num []int) int {
