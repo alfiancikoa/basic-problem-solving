@@ -10,8 +10,8 @@ import "fmt"
 	- output:
 		hasil penjumlahan maksimum dari deretan angka input
 	- example :
-		1.	#input 	= [-2, 3, -1, 7, -1]		#output = 9
-		2.	#input 	= [-2, -3, 4, -1, -2, 1, 5, -3], "cde"	#output = 7
+		1.	#input 	= [-2, 3, -1, 7, -1]					#output = 9
+		2.	#input 	= [-2, -3, 4, -1, -2, 1, 5, -3]			#output = 7
 */
 
 func MaxSubArray(arr []int) int {
