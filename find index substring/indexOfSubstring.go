@@ -4,9 +4,19 @@ import "fmt"
 
 /*
 	Problem:
-	Carilah pada index ke berapa posisi substring (b) tersebut?
-	jika ada maka return indexnya
-	jika tidak maka return -1
+	Mencari posisi dari keberadaan substring (b) apakah terdapat pada string (a)
+	Apabila substring (b) tersebut ada pada string (a), maka kembalikan index posisi tersebut
+	Jika tidak, kembalikan angka -1
+	- input:
+		Berupa karakter a-z bertipe string dan memiliki 2 parameter:
+		a. merupakan input tempat untuk mencari substring
+		b. merupakan input substring yan akan dicari pada input string (a)
+	- output:
+		Posisi / index dari substring tersebut pada input (a)
+	- example :
+		1.	#input 	= "abcdefg", "de"		#output = 3
+		2.	#input 	= "abccdcdecdf", "cde"	#output = 5
+		3.	#input 	= "abcdef", "df"		#output = -1
 */
 
 func indexOf(a string, b string) int {
