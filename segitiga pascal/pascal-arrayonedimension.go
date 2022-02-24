@@ -2,6 +2,19 @@ package main
 
 import "fmt"
 
+/*
+	Problem:
+
+	- input:
+
+	- output:
+
+	- example :
+		1.	#input 	= 		#output =
+		2.	#input 	= 		#output =
+		3.	#input 	= 		#output =
+*/
+
 func Pascal(num int) {
 	// membuat array untuk menampung nilai yang sudah dihitung
 	array := make([]int, num+1)
