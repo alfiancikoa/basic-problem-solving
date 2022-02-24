@@ -2,6 +2,19 @@ package main
 
 import "fmt"
 
+/*
+	Problem:
+
+	- input:
+
+	- output:
+
+	- example :
+		1.	#input 	= 		#output =
+		2.	#input 	= 		#output =
+		3.	#input 	= 		#output =
+*/
+
 func Pair(arr []int, target int) []int {
 	hashmap := map[int]int{}
 	var result []int
