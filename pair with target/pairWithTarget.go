@@ -30,7 +30,7 @@ func Pair(arr []int, target int) []int {
 }
 
 func main() {
-	fmt.Println(Pair([]int{1, 2, 3, 4, 5}, 6)) // 2 4
-	fmt.Println(Pair([]int{2, 3, 4, 5, 6}, 8)) // 3 5
-	fmt.Println(Pair([]int{2, 2, 3, 4, 4}, 7)) // 3 4
+	fmt.Println(Pair([]int{1, 2, 3, 4, 5}, 6)) // [2 4]
+	fmt.Println(Pair([]int{2, 3, 4, 5, 6}, 8)) // [3 5]
+	fmt.Println(Pair([]int{2, 2, 3, 4, 4}, 7)) // [3 4]
 }
