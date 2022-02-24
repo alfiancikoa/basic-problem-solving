@@ -8,6 +8,14 @@ import (
 /*
 	Problem:
 	Menentukan apakah bilangan yang di-inputkan merupakan bilangan prima atau bukan
+	- input:
+
+	- output:
+
+	- example :
+		1.	#input 	= 		#output =
+		2.	#input 	= 		#output =
+		3.	#input 	= 		#output =
 */
 
 func isPrime(n int) bool {
