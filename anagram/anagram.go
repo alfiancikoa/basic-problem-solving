@@ -3,9 +3,17 @@ package main
 import "fmt"
 
 /*
-	Problem
+	Problem:
 	Mencari jumlah karakter yang akan diubah agar bisa menjadi anagram
 	Anagram adalah salah satu jenis permainan kata yang huruf-huruf di kata awal biasanya diacak untuk membentuk kata lain atau sebuah kalimat. Anagram sering dipakai sebagai kode
+	- input:
+
+	- output:
+
+	- example :
+		1.	#input 	= 		#output =
+		2.	#input 	= 		#output =
+		3.	#input 	= 		#output =
 */
 
 func anagram(s string) int32 {
