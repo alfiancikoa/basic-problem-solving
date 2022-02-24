@@ -7,7 +7,15 @@ import (
 
 /*
 	Problem:
+
+	- input:
 	Menampilkan seluruh urutan bilangan prima sampai dengan angka yang diinputkan n
+	- output:
+
+	- example :
+		1.	#input 	= 		#output =
+		2.	#input 	= 		#output =
+		3.	#input 	= 		#output =
 */
 
 func showPrimes(n int) {
