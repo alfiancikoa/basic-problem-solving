@@ -12,7 +12,7 @@ Beberapa di antaranya meliputi:
 6. Palindrome
 7. Find Most Appear Number
 8. Remove Duplicate Number
-9. Max Sum Array
+9. Max Sub Array
 10. Pair With Target
 
 <br>
