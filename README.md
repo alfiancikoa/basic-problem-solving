@@ -14,6 +14,7 @@ Beberapa di antaranya meliputi:
 8. Remove Duplicate Number
 9. Max Sub Array
 10. Pair With Target
+11. Exponential Number
 
 <br>
 Dan sebagainya ...
