@@ -10,6 +10,7 @@ import "fmt"
 		Angka dapat berupa bilangan positif ataupun negatif
 	Output:
 		Hasil selisih maksimum yang ada pada deretan array input tersebut
+		output berupa bilangan integer positif
 	Example:
 		1. #input: [1, 2, 6, 4] 			#output: 5
 		2. #input: [-1, -3, 2, 4] 			#output: 7
