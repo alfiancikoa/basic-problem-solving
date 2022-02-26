@@ -9,7 +9,7 @@ import "fmt"
 		Berupa deretan angka array bertipe satu dimensi
 		Angka dapat berupa bilangan positif ataupun negatif
 	Output:
-
+		Hasil selisih maksimum yang ada pada deretan array input tersebut
 	Example:
 
 */
