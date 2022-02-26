@@ -2,6 +2,17 @@ package main
 
 import "fmt"
 
+/*
+	Problem:
+
+	Input:
+
+	Output:
+
+	Example:
+
+*/
+
 func maximumDiff(arr []int) int {
 	maxDiff, min := 0, arr[0]
 	for i := 0; i < len(arr); i++ {
