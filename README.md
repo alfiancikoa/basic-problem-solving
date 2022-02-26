@@ -15,6 +15,7 @@ Beberapa di antaranya meliputi:
 9. Max Sub Array
 10. Pair With Target
 11. Exponential Number
+12. Max Different
 
 <br>
 Dan sebagainya ...
