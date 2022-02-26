@@ -2,6 +2,20 @@ package main
 
 import "fmt"
 
+/*
+	Problem:
+	Mencari hasil dari bilangan berpngkat
+	- input:
+		berupa input dengn dua parameter:
+		parameter a = angka utama
+		parameter b = angka pangkatnya
+	- output:
+
+	- example :
+		1.	#input 	= "The quick brown fox jumps over the lazy dog"						#output = pangram
+		2.	#input 	= "ini bukan pangram karena tidak menggunakan seluruh alphabet"		#output = not pangram
+*/
+
 func Pow(a int, b int) float64 {
 	var result float64 = 1
 	var pangkat int = b
