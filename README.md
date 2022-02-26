@@ -16,6 +16,7 @@ Beberapa di antaranya meliputi:
 10. Pair With Target
 11. Exponential Number
 12. Max Different
+13. 
 
 <br>
 Dan sebagainya ...
