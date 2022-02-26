@@ -6,7 +6,8 @@ import "fmt"
 	Problem:
 		Mencari selisih tertinggi dari satu deret bilangan
 	Input:
-
+		Berupa deretan angka array bertipe satu dimensi
+		Angka dapat berupa bilangan positif ataupun negatif
 	Output:
 
 	Example:
