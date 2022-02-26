@@ -4,7 +4,7 @@ import "fmt"
 
 /*
 	Problem:
-
+		Mencari selisih tertinggi dari satu deret bilangan
 	Input:
 
 	Output:
