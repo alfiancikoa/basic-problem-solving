@@ -11,7 +11,9 @@ import "fmt"
 	Output:
 		Hasil selisih maksimum yang ada pada deretan array input tersebut
 	Example:
-
+		1. #input: #output:
+		2. #input: #output:
+		3. #input: #output:
 */
 
 func maximumDiff(arr []int) int {
