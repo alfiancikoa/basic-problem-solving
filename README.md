@@ -21,6 +21,6 @@ Beberapa di antaranya meliputi:
 <br>
 Dan sebagainya ...
 
-contoh soal di atas berdasarkan pengalaman penulis <br>
+contoh soal di atas berdasarkan pengalaman penulis ketika menguikuti interview<br>
 Thankyou,<br>
 alfiancikoa
