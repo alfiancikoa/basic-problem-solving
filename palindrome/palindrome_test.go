@@ -35,6 +35,9 @@ func IsPalindrome(str string) bool {
 
 func TestIsPalindrome(t *testing.T) {
 	t.Run("Test_IsPalindrome", func(t *testing.T) {
+		assert.Equal(t, true, IsPalindrome("aaaaa"))
+		assert.Equal(t, true, IsPalindrome("a"))
+		assert.Equal(t, true, IsPalindrome(" "))
 		assert.Equal(t, true, IsPalindrome("kodok"))
 		assert.Equal(t, true, IsPalindrome("kasur ini rusak"))
 		assert.Equal(t, true, IsPalindrome("Kasur Koh Ahok rusak"))
