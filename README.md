@@ -23,7 +23,7 @@ Beberapa di antaranya meliputi:
 17. 
 
 <br>
-Dan sebagainya ...
+Dan sebagainya ....
 
 contoh soal di atas berdasarkan pengalaman penulis ketika menguikuti interview<br>
 Thankyou,<br>
