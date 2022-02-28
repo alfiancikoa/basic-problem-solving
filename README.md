@@ -17,7 +17,8 @@ Beberapa di antaranya meliputi:
 11. Exponential Number
 12. Max Different
 13. Faktorial
-14. Binary Search
+14. Binary Search Tree
+15. Binary Sort
 
 <br>
 Dan sebagainya ...
