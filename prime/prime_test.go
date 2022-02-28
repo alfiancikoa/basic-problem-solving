@@ -17,7 +17,7 @@ import (
 	- example :
 		1.	#input 	= 0			#output = false
 		2.	#input 	= 2			#output = true
-		3.	#input 	= 11		#output = true
+		3.	#input 	= 11			#output = true
 */
 
 func IsPrimeBasic(num int) bool {
