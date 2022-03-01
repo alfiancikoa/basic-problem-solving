@@ -12,7 +12,7 @@ parameter b = angka pangkatnya (Bisa positif ataupun negatif)
 <h4>output:</h4>
 hasil pangkat dari bilangan a. seperti a^b = c
 <br>
-<h4>example:</h4>
+example:
 1. input = 2^0      output = 1
 2. input = 2^1      output = 2
 3. input = 2^8      output = 258
