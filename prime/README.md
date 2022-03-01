@@ -20,9 +20,9 @@ True jika bilangan prima, False jika bukan bilangan prima
 
 ### example:
 
-1. input = 1        output = false
-2. input = 2        output = true
-3. input = 3        output = true
-4. input = 6        output = false
+1. input = 1 ;  output = false
+2. input = 2 ;  output = true
+3. input = 3 ;  output = true
+4. input = 6 ;  output = false
 
 <i>*Solusi telah dilengkapi dengan unit test dan benchmark test</i>
