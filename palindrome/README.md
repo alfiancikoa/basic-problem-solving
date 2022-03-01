@@ -2,11 +2,14 @@
 
 <p align=justify><b>Palindrom</b> adalah sebuah kata, frasa, angka maupun susunan lainnya yang dapat dibaca dengan sama baik dari depan maupun belakang (spasi antara huruf-huruf biasanya diperbolehkan). Kata "palindrom" berasal dari bahasa Yunani: palin (πάλιν; "lagi") and dromos (δρóμος; "arah").</p>
 Contoh Palindrome:
+<br>
+
 S A T O R
 A R E P O
 T E N E T
 O P E R A
 R O T A S
+
 <br>
 <b>Problem:</b><br>
 Mencari hasil dari bilangan berpangkat <br>
