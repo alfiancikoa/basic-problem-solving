@@ -1,11 +1,12 @@
-# Contoh Soal Pangkat
+# Soal Pangkat
 
 <b>Problem:</b><br>
 Mencari hasil dari bilangan berpangkat <br>
+2^5 = 2 * 2 * 2 * 2 * 2 = 32
 - input:
-	berupa input dengn dua parameter:
-	parameter a = angka utama
-	parameter b = angka pangkatnya
+	berupa angka integer dengn dua parameter:
+	parameter a = angka utama (Bilangan Positif)
+	parameter b = angka pangkatnya (Bisa positif ataupun negatif)
 - output:
 	hasil pangkat dari bilangan a. seperti a^b = c
 - example :
