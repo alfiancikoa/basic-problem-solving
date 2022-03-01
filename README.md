@@ -5,7 +5,7 @@ Yukk asah kemampuan logika dan problem solving kita, agar kiranya dapat bermanfa
 Pada repository ini terdapat beberapa contoh soal latihan problem solving yang menurut saya sangat dasar (basic) dan menarik untuk dicoba.<br>
 Beberapa di antaranya meliputi:
 1. Segitiga Pascal
-2. Bilangan Prima
+2. Bilangan Prima :heavy_check_mark:
 3. Pangram
 4. Anagram 
 5. Find Index of Sub String
