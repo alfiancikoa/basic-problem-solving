@@ -6,21 +6,22 @@ Pada repository ini terdapat beberapa contoh soal latihan problem solving yang m
 Beberapa di antaranya meliputi:
 1. Segitiga Pascal
 2. Bilangan Prima :heavy_check_mark:
-3. Pangram
-4. Anagram 
-5. Find Index of Sub String
-6. Palindrome :heavy_check_mark:
-7. Find Most Appear Number
-8. Remove Duplicate Number
-9. Max Sub Array
-10. Pair With Target
-11. Exponential Number :heavy_check_mark:
-12. Max Different
-13. Faktorial 
-14. Binary Search Tree
-15. Binary Sort
-16. Selection Search
-17. 
+3. Bilangan Prima Eratosthenes
+4. Pangram
+5. Anagram 
+6. Find Index of Sub String
+7. Palindrome :heavy_check_mark:
+8. Find Most Appear Number
+9. Remove Duplicate Number
+10. Max Sub Array
+11. Pair With Target
+12. Exponential Number :heavy_check_mark:
+13. Max Different
+14. Faktorial 
+15. Binary Search Tree
+16. Binary Sort
+17. Selection Search
+18. 
 
 Contoh Program di Atas dilengkapi Unit Testing (Coming Soon)
 
