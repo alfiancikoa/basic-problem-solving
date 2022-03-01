@@ -13,7 +13,6 @@ R O T A S
 ```
 
 <br>
-
 <b>Problem:</b><br>
 Buatlah Function untuk mengecek apakah kata atau kalimat yang dimasukkan sebagai input merupakan palindrome?
 <br>
