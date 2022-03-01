@@ -23,10 +23,9 @@ Beberapa di antaranya meliputi:
 17. Selection Search
 18. 
 
-Contoh Program di Atas dilengkapi Unit Testing (Coming Soon)
+Contoh Program di Atas dilengkapi Unit Testing dan Benchmark perbandingan kecepatan eksekusi program(Coming Soon)
 
 <br>
-Dan sebagainya ....
 
 contoh soal di atas berdasarkan pengalaman penulis ketika menguikuti interview<br>
 Thankyou,<br>
