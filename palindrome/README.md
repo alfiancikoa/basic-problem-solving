@@ -1,6 +1,7 @@
 # Soal Palindrome
 
-<p align=justify><b>Palindrom</b> adalah sebuah kata, frasa, angka maupun susunan lainnya yang dapat dibaca dengan sama baik dari depan maupun belakang (spasi antara huruf-huruf biasanya diperbolehkan). Kata "palindrom" berasal dari bahasa Yunani: palin (πάλιν; "lagi") and dromos (δρóμος; "arah").</p>
+<p align=justify><b>Palindrom</b> adalah sebuah kata, frasa, angka maupun susunan lainnya yang dapat dibaca dengan sama baik dari depan maupun belakang (spasi antara huruf-huruf biasanya diperbolehkan). Kata "palindrom" berasal dari bahasa Yunani: palin (πάλιν; "lagi") and dromos (δρóμος; "arah").
+(Sumber: https://id.wikipedia.org/wiki/Palindrom)</p>
 Contoh Palindrome:
 <br>
 
