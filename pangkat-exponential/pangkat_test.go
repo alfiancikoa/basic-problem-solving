@@ -7,6 +7,7 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
+// Function untukk Bilangan Berpangat Positif
 func PangkatPositive(a int, b int) int {
 	var result int = 1
 	for i := 0; i < b; i++ {
@@ -15,6 +16,7 @@ func PangkatPositive(a int, b int) int {
 	return result
 }
 
+// Function untukk Bilangan Berpangat Positif dan Negatif
 func PangkatNegatif(a int, b int) float64 {
 	var result float64 = 1
 	var bPositif = int(math.Abs(float64(b)))
@@ -28,6 +30,7 @@ func PangkatNegatif(a int, b int) float64 {
 	return result
 }
 
+// Function untukk Bilangan Berpangat Positif dan Negatif yang diOptimasi
 func PangkatOptimasi(a int, b int) float64 {
 	var result, temp float64 = 1, 1
 	var bPositif = b
@@ -46,6 +49,7 @@ func PangkatOptimasi(a int, b int) float64 {
 	return result * result * temp
 }
 
+// Function untukk Bilangan Berpangat Positif dengan cara Rekursif
 func PangkatRecursive(a int, b int) float64 {
 	if b <= 0 {
 		return 1
