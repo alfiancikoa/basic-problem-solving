@@ -9,14 +9,14 @@ Beberapa di antaranya meliputi:
 3. Pangram
 4. Anagram 
 5. Find Index of Sub String
-6. Palindrome
+6. Palindrome :heavy_check_mark:
 7. Find Most Appear Number
 8. Remove Duplicate Number
 9. Max Sub Array
 10. Pair With Target
 11. Exponential Number
 12. Max Different
-13. Faktorial
+13. Faktorial :heavy_check_mark:
 14. Binary Search Tree
 15. Binary Sort
 16. Selection Search
