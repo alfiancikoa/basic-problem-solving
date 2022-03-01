@@ -14,9 +14,9 @@ Beberapa di antaranya meliputi:
 8. Remove Duplicate Number
 9. Max Sub Array
 10. Pair With Target
-11. Exponential Number
+11. Exponential Number :heavy_check_mark:
 12. Max Different
-13. Faktorial :heavy_check_mark:
+13. Faktorial 
 14. Binary Search Tree
 15. Binary Sort
 16. Selection Search
