@@ -26,3 +26,4 @@ hasil pangkat dari bilangan a. seperti a^b = c
 3. input = 2^8      output = 258
 4. input = 9^-2     output = 0.012345679012345678
 
+<i>Solusi telah dilengkapi dengan unit test dan benchmark test</i>
