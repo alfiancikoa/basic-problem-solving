@@ -7,19 +7,7 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-/*
-	Problem:
-	Menentukan apakah bilangan yang di-inputkan merupakan bilangan prima atau bukan
-	- input:
-		Berupa angka positif
-	- output:
-		True Atau False
-	- example :
-		1.	#input 	= 0			#output = false
-		2.	#input 	= 2			#output = true
-		3.	#input 	= 11			#output = true
-*/
-
+// Fungsi untuk mengecek bilangan prima sederhana
 func IsPrimeBasic(num int) bool {
 	var faktor int
 	for i := 1; i <= num; i++ {
@@ -30,6 +18,7 @@ func IsPrimeBasic(num int) bool {
 	return faktor == 2
 }
 
+// Fungsi untuk mengecek bilangan prima yang sudah di optimasi
 func IsPrimeOptimize(num int) bool {
 	if num < 2 {
 		return false
@@ -48,6 +37,7 @@ func IsPrimeOptimize(num int) bool {
 	Run Benchmar = go test -bench=.
 */
 
+// Unit Testing dari Fungsi IsPrime di Atas
 func TestPrime(t *testing.T) {
 	t.Run("Test_IsPrime", func(t *testing.T) {
 		assert.Equal(t, false, IsPrimeBasic(0))
@@ -73,6 +63,7 @@ func TestPrime(t *testing.T) {
 	// PASS ok
 }
 
+// Benchmark untuk mengetahui seberapa cepat program kita dieksekusi
 func BenchmarkIsPrime(b *testing.B) {
 	for i := 0; i < b.N; i++ {
 		IsPrimeBasic(1000000007)
