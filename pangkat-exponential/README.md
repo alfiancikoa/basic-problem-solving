@@ -4,15 +4,20 @@
 Mencari hasil dari bilangan berpangkat <br>
 2^5 = 2 * 2 * 2 * 2 * 2 = 32
 <br>
-<h4>input:</h4>
+
+###input:
+
 berupa angka integer dengn dua parameter:
 parameter a = angka utama (Bilangan Positif)
 parameter b = angka pangkatnya (Bisa positif ataupun negatif)
 <br>
-<h4>output:</h4>
+
+###output:
+
 hasil pangkat dari bilangan a. seperti a^b = c
 <br>
-example:
+
+###example:
 
 1. input = 2^0      output = 1
 2. input = 2^1      output = 2
