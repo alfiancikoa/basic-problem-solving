@@ -1,6 +1,8 @@
 # Soal Pangkat
 
-<p align=justify><b>Eksponensiasi</b> atau bilangan berpangkt adalah sebuah operasi matematika, ditulis sebagai {b^n}, melibatkan dua bilangan, basis atau bilangan pokok {b} dan eksponen atau pangkat {n}, diucapkan sebagai "{b} pangkat {n}". Ketika n adalah bilangan bulat positif, eksponensiasi adalah perkalian berulang dari basis: yaitu, b^{n} adalah darab (hasil perkalian) dari mengalikan basis {n}</p>
+<p align=justify><b>Eksponensiasi</b> atau bilangan berpangkt adalah sebuah operasi matematika, ditulis sebagai {b^n}, melibatkan dua bilangan, basis atau bilangan pokok {b} dan eksponen atau pangkat {n}, diucapkan sebagai "{b} pangkat {n}". Ketika n adalah bilangan bulat positif, eksponensiasi adalah perkalian berulang dari basis: yaitu, b^{n} adalah darab (hasil perkalian) dari mengalikan basis {n}. <br>
+(Sumber: https://id.wikipedia.org/wiki/Eksponensiasi)
+</p>
 
 <b>Problem:</b><br>
 Mencari hasil dari bilangan berpangkat <br>
