@@ -59,7 +59,7 @@ func PangkatRecursive(a int, b int) float64 {
 
 /*
 	*Note:
-	Untuk menjalankan Unit Teset = go test -v
+	Untuk menjalankan Unit Test = go test -v
 	Untuk menjalankan Benchmark = go test -bench=.
 */
 
@@ -69,6 +69,7 @@ func TestPangkat(t *testing.T) {
 		assert.Equal(t, 1, PangkatPositive(2, 0))
 		assert.Equal(t, 256, PangkatPositive(2, 8))
 		assert.Equal(t, 1024, PangkatPositive(2, 10))
+		// PASS ok
 	})
 	t.Run("Test_PangkatNegatif", func(t *testing.T) {
 		assert.Equal(t, 1.0, PangkatNegatif(2, 0))
@@ -76,16 +77,19 @@ func TestPangkat(t *testing.T) {
 		assert.Equal(t, 1024.0, PangkatNegatif(2, 10))
 		assert.Equal(t, 0.0009765625, PangkatNegatif(2, -10))
 		assert.Equal(t, 0.012345679012345678, PangkatNegatif(9, -2))
+		// PASS ok
 	})
 	t.Run("Test_PangkatRecursive", func(t *testing.T) {
 		assert.Equal(t, 1.0, PangkatRecursive(2, 0))
 		assert.Equal(t, 256.0, PangkatRecursive(2, 8))
 		assert.Equal(t, 1024.0, PangkatRecursive(2, 10))
+		// PASS ok
 	})
 	t.Run("Test_PangkatOptimasi", func(t *testing.T) {
 		assert.Equal(t, 1.0, PangkatOptimasi(2, 0))
 		assert.Equal(t, 256.0, PangkatOptimasi(2, 8))
 		assert.Equal(t, 1024.0, PangkatOptimasi(2, 10))
+		// PASS ok
 	})
 }
 
