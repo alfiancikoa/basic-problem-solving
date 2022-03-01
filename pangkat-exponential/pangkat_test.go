@@ -57,6 +57,13 @@ func PangkatRecursive(a int, b int) float64 {
 	return float64(a) * PangkatRecursive(a, b-1)
 }
 
+/*
+	*Note:
+	Untuk menjalankan Unit Teset = go test -v
+	Untuk menjalankan Benchmark = go test -bench=.
+*/
+
+// Unit Testing dari Fungsi Eksponensil di Atas
 func TestPangkat(t *testing.T) {
 	t.Run("Test_PangkatPositive", func(t *testing.T) {
 		assert.Equal(t, 1, PangkatPositive(2, 0))
@@ -82,6 +89,7 @@ func TestPangkat(t *testing.T) {
 	})
 }
 
+// Benchmark untuk menghitung seberapa cepat program kita dieksekusi
 func BenchmarkPangkat(b *testing.B) {
 	for i := 0; i < b.N; i++ {
 		PangkatPositive(2, 10)
