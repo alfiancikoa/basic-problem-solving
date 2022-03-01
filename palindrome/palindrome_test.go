@@ -1,24 +1,13 @@
 package palindrome
 
 import (
-	"github.com/stretchr/testify/assert"
 	"strings"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
 )
 
-/*
-	Problem:
-	Mengecek Apakah kata atau kalimat input merupakan palindrome atau bukan
-	- input:
-		satu atau lebih kata bertipe string, (a-z,A-Z)
-	- output:
-		status apakah palindrome atau bukan (true or false)
-	- example :
-		1.	#input 	= "kodok"	#output = true
-		2.	#input 	= "kakak"	#output = true
-		3.	#input 	= "makan"	#output = false
-*/
-
+// Fungsi untuk Pengecekan Palindrome
 func IsPalindrome(str string) bool {
 	// remove blank space and make it lower
 	input := strings.ToLower(strings.ReplaceAll(str, " ", ""))
@@ -33,6 +22,25 @@ func IsPalindrome(str string) bool {
 	return true
 }
 
+// Fungsi untuk Pengecekan Palindrome dengan menggunakan Recursive
+func IsPalindromeRecursive(str string, i int) bool {
+	if i > len(str)/2 {
+		return true
+	}
+	leftIndex, rightIndex := i, len(str)-i-1
+	if str[leftIndex] != str[rightIndex] {
+		return false
+	}
+	return IsPalindromeRecursive(str, i+1)
+}
+
+/*
+	*Note:
+	Untuk menjalankan Unit Test = go test -v
+	Untuk menjalankan Benchmark = go test -bench=.
+*/
+
+// Unit Testing dari Fungsi Palindrome di Atas
 func TestIsPalindrome(t *testing.T) {
 	t.Run("Test_IsPalindrome", func(t *testing.T) {
 		assert.Equal(t, true, IsPalindrome("aaaaa"))
@@ -40,17 +48,32 @@ func TestIsPalindrome(t *testing.T) {
 		assert.Equal(t, true, IsPalindrome(" "))
 		assert.Equal(t, true, IsPalindrome("kodok"))
 		assert.Equal(t, true, IsPalindrome("kasur ini rusak"))
-		assert.Equal(t, true, IsPalindrome("Kasur Koh Ahok rusak"))
-		assert.Equal(t, true, IsPalindrome("Ibu Ratna antar ubi"))
 		assert.Equal(t, false, IsPalindrome("zoom"))
 		assert.Equal(t, false, IsPalindrome("bubuk"))
+		// PASS ok
 	})
-	// Result Pass
+	t.Run("Test_IsPalindromeRecursive", func(t *testing.T) {
+		assert.Equal(t, true, IsPalindromeRecursive("aaaaa", 0))
+		assert.Equal(t, true, IsPalindromeRecursive("a", 0))
+		assert.Equal(t, true, IsPalindromeRecursive(" ", 0))
+		assert.Equal(t, true, IsPalindromeRecursive("kodok", 0))
+		assert.Equal(t, true, IsPalindromeRecursive("kasurinirusak", 0))
+		assert.Equal(t, false, IsPalindromeRecursive("zoom", 0))
+		assert.Equal(t, false, IsPalindromeRecursive("bubuk", 0))
+		// PASS ok
+	})
 }
 
-func BenchmarkFaktorial(b *testing.B) {
+// Benchmark untuk menghitung seberapa cepat program kita dieksekusi
+func BenchmarkIsPalindrome(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		IsPalindrome("Ibu Ratna antar ubi")
+		IsPalindrome("kasurinirusak")
 	}
-	// Result 542.7 ns/op
+	// Result 117.7 ns/op
+}
+func BenchmarkIsPalindromeRecursive(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		IsPalindromeRecursive("kasurinirusak", 0)
+	}
+	// Result 47.86 ns/op
 }
