@@ -26,3 +26,12 @@ True jika bilangan prima, False jika bukan bilangan prima
 4. input = 6 ;  output = false
 
 <i>*Solusi telah dilengkapi dengan unit test dan benchmark test</i>
+command untuk menjalankan unit test dan benchmark:
+
+```
+# Unit Test
+$ go test -v
+
+# Benchmark
+$ go test -bench=.
+```
