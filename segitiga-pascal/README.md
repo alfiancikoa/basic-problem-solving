@@ -21,18 +21,18 @@ Tampilan segitiga pascal sesuai dengan inputan
 ### example:
 
 1. input = 3 
-   Output = 
+   Output =<br>
    1<br>
    1 1<br>
    1 2 1<br>
 
 2. input = 5 
-   Output = 
-   1
-   1 1
-   1 2 1
-   1 3 3 1
-   1 4 6 4 1
+   Output = <br>
+   1<br>
+   1 1<br>
+   1 2 1<br>
+   1 3 3 1<br>
+   1 4 6 4 1<br>
    
 <i>*Solusi telah dilengkapi dengan unit test dan benchmark test</i>
 command untuk menjalankan unit test dan benchmark:
