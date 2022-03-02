@@ -28,4 +28,15 @@ hasil pangkat dari bilangan a. seperti a^b = c
 3. input = 2^8      output = 258
 4. input = 9^-2     output = 0.012345679012345678
 
-<i>*Solusi telah dilengkapi dengan unit test dan benchmark test</i>
+
+<i><b>*Solusi telah dilengkapi dengan unit test dan benchmark test</b></i>
+
+### command untuk menjalankan unit test dan benchmark:
+
+```
+# Unit Test
+$ go test -v
+
+# Benchmark
+$ go test -bench=.
+```
