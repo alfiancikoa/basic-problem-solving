@@ -34,4 +34,15 @@ Hasil berupa <b>True</b> atau <b>False</b>
 3. input = "makan"          output = false
 4. input = "nasigoreng"     output = false
 
-<i>*Solusi telah dilengkapi dengan unit test dan benchmark test</i>
+<i><b>*Solusi telah dilengkapi dengan unit test dan benchmark test</b></i>
+
+### command untuk menjalankan unit test dan benchmark:
+
+```
+# Unit Test
+$ go test -v
+
+# Benchmark
+$ go test -bench=.
+```
+
