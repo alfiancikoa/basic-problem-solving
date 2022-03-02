@@ -6,14 +6,7 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-/*
-	Faktorial dari bilangan bulat positif dari n yang dilambangkan dengan n!,
-	adalah produk dari semua bilangan bulat positif yang kurang dari atau sama dengan n:
-	n! = n * (n-1) * (n-2) * (n-3) * ... * 3 * 2 * 1
-	contoh:
-	5! = 5 x 4 x 3 x 2 x 1
-*/
-
+// Fungsi mencari nilai faktorial sederhana
 func Faktorial(n int) int {
 	if n <= 0 {
 		return 1
@@ -25,6 +18,7 @@ func Faktorial(n int) int {
 	return result
 }
 
+// Fungsi mencari nilai faktorial dengan cara recursive
 func FaktorialRecursive(total int, n int) int {
 	if n <= 0 {
 		return total
@@ -38,6 +32,7 @@ func FaktorialRecursive(total int, n int) int {
 	Running Benchmark -> go test -bench=.
 */
 
+// Unit Test untuk fungsi faktorial di atas
 func TestFaktorial(t *testing.T) {
 	t.Run("Test_FaktorialBiasa", func(t *testing.T) {
 		// Faktorial biasa
@@ -64,6 +59,7 @@ func TestFaktorial(t *testing.T) {
 
 }
 
+// Benchmark untuk mengetahui seberapa cepat program dieksekusi
 func BenchmarkFaktorial(b *testing.B) {
 	for i := 0; i < b.N; i++ {
 		Faktorial(12)
