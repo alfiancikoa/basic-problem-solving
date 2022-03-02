@@ -29,8 +29,9 @@ Hasil faktorial bilangagn input n
 3. input = 5 ;  output = 120
 4. input = 8 ;  output = 40.320
 
-<i>*Solusi telah dilengkapi dengan unit test dan benchmark test</i>
-command untuk menjalankan unit test dan benchmark:
+<i><b>*Solusi telah dilengkapi dengan unit test dan benchmark test</b></i>
+
+### command untuk menjalankan unit test dan benchmark:
 
 ```
 # Unit Test
