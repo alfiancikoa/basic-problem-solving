@@ -17,17 +17,17 @@ Beberapa di antaranya meliputi:
 11. Pair With Target
 12. Exponential Number :heavy_check_mark:
 13. Max Different
-14. Faktorial 
+14. Faktorial :heavy_check_mark:
 15. Binary Search Tree
 16. Binary Sort
 17. Selection Search
 18. 
 
-Contoh Program di Atas dilengkapi Unit Testing dan Benchmark perbandingan kecepatan eksekusi program(Coming Soon)
+Contoh Program di Atas dilengkapi Unit Testing dan Benchmark perbandingan kecepatan eksekusi program(Coming Soon) yang akan ditandai dengan tanda ceklis (:heavy_check_mark:)
 
 <br>
 
-contoh soal di atas berdasarkan pengalaman penulis ketika menguikuti interview<br>
+contoh soal di atas berdasarkan pengalaman penulis<br>
 Thankyou,<br>
 alfiancikoa
   
