@@ -22,9 +22,9 @@ Tampilan segitiga pascal sesuai dengan inputan
 
 1. input = 3 
    Output = 
-   1
-   1 1
-   1 2 1
+   1<br>
+   1 1<br>
+   1 2 1<br>
 
 2. input = 5 
    Output = 
