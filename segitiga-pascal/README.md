@@ -35,7 +35,8 @@ Tampilan segitiga pascal sesuai dengan inputan
    1 4 6 4 1<br>
    
 <i>*Solusi telah dilengkapi dengan unit test dan benchmark test</i><br>
-command untuk menjalankan unit test dan benchmark:
+
+## command untuk menjalankan unit test dan benchmark:
 
 ```
 # Unit Test
