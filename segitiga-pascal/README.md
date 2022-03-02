@@ -20,13 +20,13 @@ Tampilan segitiga pascal sesuai dengan inputan
 
 ### example:
 
-1. input = 3 
+1. input = 3 <br>
    Output =<br>
    1<br>
    1 1<br>
    1 2 1<br>
 
-2. input = 5 
+2. input = 5 <br>
    Output = <br>
    1<br>
    1 1<br>
