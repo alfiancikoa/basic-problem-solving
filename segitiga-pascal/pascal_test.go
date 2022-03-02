@@ -59,6 +59,12 @@ func Pascal_Formula(n int) string {
 	return result
 }
 
+/*
+	*NOTE:
+	Run Unit Test = go test -v
+	Run Benchmar = go test -bench=.
+*/
+
 // Unit Test untuk Function Segitiga Pascal di Atas
 func TestPascalFunction(t *testing.T) {
 	t.Run("Test_PascalArray2D", func(t *testing.T) {
