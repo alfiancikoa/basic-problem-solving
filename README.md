@@ -19,9 +19,8 @@ Beberapa di antaranya meliputi:
 13. Max Different
 14. Faktorial :heavy_check_mark:
 15. Binary Search Tree
-16. Binary Sort
-17. Selection Search
-18. 
+16. Selection Sort
+17. 
 
 Contoh Program di Atas dilengkapi Unit Testing dan Benchmark untuk perbandingan kecepatan eksekusi program (on progress) yang akan ditandai dengan tanda ceklis (:heavy_check_mark:)
 
