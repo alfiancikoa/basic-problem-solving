@@ -3,7 +3,7 @@ Teruntuk kawan2 ku yang sedang gelisah galau merana<br>
 Yukk!!! asah kemampuan logika dan problem solving kita, agar kiranya dapat bermanfaat di suatu hari nanti
 
 ```
-Bahasa yang digunakan pada kali ini menggunakan bahasa GO.<br>
+# Bahasa yang digunakan pada kali ini menggunakan bahasa <b>GO</b>
 ```
 
 Pada repository ini terdapat beberapa contoh soal latihan problem solving yang menurut saya sangat dasar (basic) dan menarik untuk dicoba.<br>
