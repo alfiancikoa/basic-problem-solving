@@ -10,7 +10,7 @@ Buatlah sebuah fungsi untuk mengetahui apakah kalimat yang dimasukkan sebagai in
 <br>
 
 ### input:
-Sebuah kalimat yang menggunakan huruf a-z
+satu atau lebih kata yang menjadi kalimat bertipe string, (a-z,A-Z)
 <br>
 
 ### output:
@@ -20,7 +20,7 @@ Sebuah kalimat yang menggunakan huruf a-z
 ### example:
 
 1. Input = he quick brown fox jumps over the lazy dog; Output = pangram
-2. Input = hari yang cerah untuk jiwa yang sepi; Output = not pangram
+2. Input = ini bukan pangram karena tidak menggunakan seluruh alphabet; Output = not pangram
 
 
 
