@@ -7,7 +7,7 @@ Beberapa di antaranya meliputi:
 1. Segitiga Pascal :heavy_check_mark:
 2. Bilangan Prima :heavy_check_mark:
 3. Bilangan Prima Eratosthenes
-4. Pangram
+4. Pangram  :heavy_check_mark:
 5. Anagram 
 6. Find Index of Sub String
 7. Palindrome :heavy_check_mark:
