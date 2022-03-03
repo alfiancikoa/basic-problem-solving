@@ -4,7 +4,7 @@ Yukk!!! asah kemampuan logika dan problem solving kita, agar kiranya dapat berma
 
 ```
 ### Desclimer ###
-# Bahasa yang digunakan pada kali ini menggunakan bahasa <b>GO</b>
+# Bahasa yang digunakan pada kali ini menggunakan bahasa GO
 ```
 
 Pada repository ini terdapat beberapa contoh soal latihan problem solving yang menurut saya sangat dasar (basic) dan menarik untuk dicoba.<br>
