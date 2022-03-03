@@ -23,7 +23,7 @@ Beberapa di antaranya meliputi:
 17. Selection Search
 18. 
 
-Contoh Program di Atas dilengkapi Unit Testing dan Benchmark perbandingan kecepatan eksekusi program(Coming Soon) yang akan ditandai dengan tanda ceklis (:heavy_check_mark:)
+Contoh Program di Atas dilengkapi Unit Testing dan Benchmark untuk perbandingan kecepatan eksekusi program (on progress) yang akan ditandai dengan tanda ceklis (:heavy_check_mark:)
 
 <br>
 
