@@ -2,7 +2,10 @@
 Teruntuk kawan2 ku yang sedang gelisah galau merana<br>
 Yukk!!! asah kemampuan logika dan problem solving kita, agar kiranya dapat bermanfaat di suatu hari nanti
 
+```
 Bahasa yang digunakan pada kali ini menggunakan bahasa GO.<br>
+```
+
 Pada repository ini terdapat beberapa contoh soal latihan problem solving yang menurut saya sangat dasar (basic) dan menarik untuk dicoba.<br>
 Beberapa di antaranya meliputi:
 1. Segitiga Pascal :heavy_check_mark:
