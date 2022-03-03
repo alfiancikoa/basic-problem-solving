@@ -1,7 +1,6 @@
-package main
+package pangram
 
 import (
-	"fmt"
 	"strings"
 )
 
@@ -35,9 +34,6 @@ func Pangram(s string) string {
 	return "not pangram"
 }
 
-func main() {
-	fmt.Println(Pangram("We promptly judged antique ivory buckles for the next prize")) // panggram
-	fmt.Println(Pangram("The quick brown fox jumps over the lazy dog"))                 //pangram
-	fmt.Println(Pangram("We promptly judged antique ivory buckles for the prize"))      // not pangram
-
-}
+// fmt.Println(Pangram("We promptly judged antique ivory buckles for the next prize")) // panggram
+// fmt.Println(Pangram("The quick brown fox jumps over the lazy dog"))                 //pangram
+// fmt.Println(Pangram("We promptly judged antique ivory buckles for the prize"))      // not pangram
