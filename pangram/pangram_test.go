@@ -2,22 +2,12 @@ package pangram
 
 import (
 	"strings"
+	"testing"
+
+	"github.com/stretchr/testify/assert"
 )
 
-/*
-	Problem:
-	mengecek apakah kalimat merupakan pangram atau bukan?
-	pangram merupakan atau kalimat holoalfabetis, adalah suatu kalimat yang menggunakan semua huruf dalam suatu aksara paling tidak satu kali
-	artinya dalam satu kalimat tersebut semua huruf alphabet digunakan mulai dari a - z
-	- input:
-		satu atau lebih kata yang menjadi kalimat bertipe string, (a-z,A-Z)
-	- output:
-		status apakah kalimat tersebut merupakan pangram atau bukan(pangram or not pangram)
-	- example :
-		1.	#input 	= "The quick brown fox jumps over the lazy dog"						#output = pangram
-		2.	#input 	= "ini bukan pangram karena tidak menggunakan seluruh alphabet"		#output = not pangram
-*/
-
+// Fungsi untuk mengecek kalimat Pangram
 func Pangram(s string) string {
 	// simpan seluruh karakter ke dalam map
 	var hashmap = map[string]int{}
@@ -34,6 +24,24 @@ func Pangram(s string) string {
 	return "not pangram"
 }
 
-// fmt.Println(Pangram("We promptly judged antique ivory buckles for the next prize")) // panggram
-// fmt.Println(Pangram("The quick brown fox jumps over the lazy dog"))                 //pangram
-// fmt.Println(Pangram("We promptly judged antique ivory buckles for the prize"))      // not pangram
+/*
+	*NOTE:
+	Run Unit Test = go test -v
+	Run Benchmar = go test -bench=.
+*/
+
+// Unit Test untuk Function Pangram di Atas
+func Test_Pangram(t *testing.T) {
+	assert.Equal(t, "pangram", Pangram("We promptly judged antique ivory buckles for the next prize"))
+	assert.Equal(t, "pangram", Pangram("The quick brown fox jumps over the lazy dog"))
+	assert.Equal(t, "not pangram", Pangram("We promptly judged antique ivory buckles for the prize"))
+	// PASS ok
+}
+
+// Benchmark diunakan untuk menegcek seberapa cepat program dieksekusi
+func Benchmark_PascalArray2D(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		Pangram("We promptly judged antique ivory buckles for the next prize")
+	}
+	// PASS ok 10719 ns/op
+}
