@@ -1,6 +1,6 @@
 # basic-problem-solving
 Teruntuk kawan2 ku yang sedang gelisah galau merana<br>
-Yukk asah kemampuan logika dan problem solving kita, agar kiranya dapat bermanfaat di suatu hari nanti
+Yukk!!! asah kemampuan logika dan problem solving kita, agar kiranya dapat bermanfaat di suatu hari nanti
 
 Pada repository ini terdapat beberapa contoh soal latihan problem solving yang menurut saya sangat dasar (basic) dan menarik untuk dicoba.<br>
 Beberapa di antaranya meliputi:
