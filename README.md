@@ -27,6 +27,6 @@ Contoh Program di Atas dilengkapi Unit Testing dan Benchmark untuk perbandingan 
 <br>
 
 contoh soal di atas berdasarkan pengalaman penulis<br>
-Thankyou,<br>
+Cheers,<br>
 alfiancikoa
   
