@@ -38,4 +38,6 @@ contoh soal di atas diambil berdasarkan pengalaman penulis<br>
 Cheers,<br>
 alfiancikoa
 <br>
+<br>
+<br>
 <i>Jangan ragu untuk memberi kritik dan saran, silahkan berikan issue terkait dengan apa yang harus diperbaiki oleh penulis. <a href="https://github.com/alfiancikoa/basic-problem-solving/issues">here</a></i>
