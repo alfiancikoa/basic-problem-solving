@@ -12,22 +12,20 @@ The list of all substrings of the string "apple" would be "apple", "appl", "pple
 
 ### input:
 
-berupa angka integer dengn dua parameter:
-parameter a = angka utama (Bilangan Positif)
-parameter b = angka pangkatnya (Bisa positif ataupun negatif)
+berupa string dengan dua parameter:
+parameter a = string utama
+parameter b = substring yang akan dicari pada string utam (a)
 <br>
 
 ### output:
 
-hasil pangkat dari bilangan a. seperti a^b = c
+Index keberadaan dari substring (b) jika terdapat di string utama (a). Jika substring (b) tidak terdapat pada string utama (a) maka kembalikan nilai -1
 <br>
 
 ### example:
 
-1. input = 2^0      output = 1
-2. input = 2^1      output = 2
-3. input = 2^8      output = 258
-4. input = 9^-2     output = 0.012345679012345678
+1. input = "abcdef" , "de"      output = 3
+2. input = "abcdef" , "df"      output =-1
 
 
 <i><b>*Solusi telah dilengkapi dengan unit test dan benchmark test</b></i>
