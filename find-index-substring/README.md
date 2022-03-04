@@ -24,8 +24,9 @@ Index keberadaan dari substring (b) jika terdapat di string utama (a). Jika subs
 
 ### example:
 
-1. input = "abcdef" , "de" ;     output = 3
-2. input = "abcdef" , "df" ;     output =-1
+1. input = "abcdef" , "de" ;          output = 3
+2. input = "abccccdef" , "cde" ;      output = 5
+3. input = "abcdef" , "df" ;          output =-1
 
 
 <i><b>*Solusi telah dilengkapi dengan unit test dan benchmark test</b></i>
