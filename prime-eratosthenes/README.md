@@ -1,4 +1,4 @@
-# Soal Bilangan Prima
+# Soal Deret Prima With Eratosthenes Algorithm 
 
 <p align=justify><b>Tapis Eratosthenes</b>  adalah suatu cara untuk menemukan semua bilangan prima di antara 1 dan suatu angka n. Tapis ini ditemukan oleh Eratosthenes, seorang ilmuwan Yunani kuno. Cara ini merupakan cara paling sederhana dan paling cepat untuk menemukan bilangan prima, sebelum Tapis Atkin ditemukan pada tahun 2004. Tapis Atkin merupakan cara yang lebih cepat namun lebih rumit dibandingkan dengan Tapis Eratosthenes. <br>
 (Sumber: https://id.wikipedia.org/wiki/Tapis_Eratosthenes)
