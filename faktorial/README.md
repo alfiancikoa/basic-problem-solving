@@ -1,6 +1,6 @@
 # Soal Bilangan Prima
 
-<p align=justify><b>Faktorial</b>dari bilangan bulat positif dari n yang dilambangkan dengan n!,
+<p align=justify><b>Faktorial</b> dari bilangan bulat positif dari n yang dilambangkan dengan n!,
 	adalah produk dari semua bilangan bulat positif yang kurang dari atau sama dengan n:
 	n! = n * (n-1) * (n-2) * (n-3) * ... * 3 * 2 * 1
 	contoh:
