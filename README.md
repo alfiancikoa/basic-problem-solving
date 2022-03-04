@@ -25,7 +25,9 @@ Beberapa di antaranya meliputi:
 14. Faktorial :heavy_check_mark:
 15. Binary Search Tree
 16. Selection Sort
-17. 
+17. Cheese Board
+18. Find Escape From Maze (Labirin)
+19. 
 
 
 Contoh Program di Atas dilengkapi Unit Testing dan Benchmark untuk perbandingan kecepatan eksekusi program (on progress) yang akan ditandai dengan tanda ceklis (:heavy_check_mark:)
