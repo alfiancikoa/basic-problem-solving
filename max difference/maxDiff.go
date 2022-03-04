@@ -15,6 +15,7 @@ import "fmt"
 		1. #input: [1, 2, 6, 4] 			#output: 5
 		2. #input: [-1, -3, 2, 4] 			#output: 7
 		3. #input: [2, 7, 9, 5, 1, 5, 10] 	#output: 9
+		d
 */
 
 func maximumDiff(arr []int) int {
