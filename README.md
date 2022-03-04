@@ -1,13 +1,18 @@
 # basic-problem-solving
 Teruntuk kawan2 ku yang sedang gelisah galau merana<br>
-Yukk asah kemampuan logika dan problem solving kita, agar kiranya dapat bermanfaat di suatu hari nanti
+Yukk!!! asah kemampuan logika dan problem solving kita, agar kiranya dapat bermanfaat di suatu hari nanti
+
+```
+### Desclimer ###
+# Bahasa yang digunakan pada kali ini menggunakan bahasa GO
+```
 
 Pada repository ini terdapat beberapa contoh soal latihan problem solving yang menurut saya sangat dasar (basic) dan menarik untuk dicoba.<br>
 Beberapa di antaranya meliputi:
 1. Segitiga Pascal :heavy_check_mark:
 2. Bilangan Prima :heavy_check_mark:
 3. Bilangan Prima Eratosthenes
-4. Pangram
+4. Pangram  :heavy_check_mark:
 5. Anagram 
 6. Find Index of Sub String
 7. Palindrome :heavy_check_mark:
@@ -19,15 +24,15 @@ Beberapa di antaranya meliputi:
 13. Max Different
 14. Faktorial :heavy_check_mark:
 15. Binary Search Tree
-16. Binary Sort
-17. Selection Search
-18. 
+16. Selection Sort
+17. 
 
-Contoh Program di Atas dilengkapi Unit Testing dan Benchmark perbandingan kecepatan eksekusi program(Coming Soon) yang akan ditandai dengan tanda ceklis (:heavy_check_mark:)
 
+Contoh Program di Atas dilengkapi Unit Testing dan Benchmark untuk perbandingan kecepatan eksekusi program (on progress) yang akan ditandai dengan tanda ceklis (:heavy_check_mark:)
+  
 <br>
-
+  
 contoh soal di atas berdasarkan pengalaman penulis<br>
-Thankyou,<br>
+Cheers,<br>
 alfiancikoa
   
