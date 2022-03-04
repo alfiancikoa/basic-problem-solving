@@ -14,7 +14,7 @@ Beberapa di antaranya meliputi:
 3. Bilangan Prima Eratosthenes :heavy_check_mark:
 4. Pangram  :heavy_check_mark:
 5. Anagram 
-6. Find Index of Sub String
+6. Find Index of Sub String :heavy_check_mark:
 7. Palindrome :heavy_check_mark:
 8. Find Most Appear Number
 9. Remove Duplicate Number
