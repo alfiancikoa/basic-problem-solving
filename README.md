@@ -33,10 +33,9 @@ Beberapa di antaranya meliputi:
 Contoh Program di Atas dilengkapi Unit Testing dan Benchmark untuk perbandingan kecepatan eksekusi program (on progress) yang akan ditandai dengan tanda ceklis (:heavy_check_mark:)
 
 <br>
-<i>Jangan ragu untuk memberi kritik dan saran, silahkan berikan issue terkait dengan apa yang harus diperbaiki oleh penulis. <a href="https://github.com/alfiancikoa/basic-problem-solving/issues">here</a></i>
-<br>
 
 contoh soal di atas diambil berdasarkan pengalaman penulis<br>
 Cheers,<br>
 alfiancikoa
-  
+<br>
+<i>Jangan ragu untuk memberi kritik dan saran, silahkan berikan issue terkait dengan apa yang harus diperbaiki oleh penulis. <a href="https://github.com/alfiancikoa/basic-problem-solving/issues">here</a></i>
