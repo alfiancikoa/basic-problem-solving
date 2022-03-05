@@ -37,7 +37,7 @@ func TestMostAppearNumber(t *testing.T) {
 }
 
 // Benchmark untuk mengetahui seberapa cepat program kita dieksekusi
-func BenchmarkIsPrime(b *testing.B) {
+func BenchmarkMostAppearNumber(b *testing.B) {
 	for i := 0; i < b.N; i++ {
 		mostAppearNumber([]int{92, 8, 92, 68, 100, 4, 1, 2, 100, 100})
 	}
