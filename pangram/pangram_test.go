@@ -39,7 +39,7 @@ func Test_Pangram(t *testing.T) {
 }
 
 // Benchmark diunakan untuk menegcek seberapa cepat program dieksekusi
-func Benchmark_PascalArray2D(b *testing.B) {
+func Benchmark_Pangram(b *testing.B) {
 	for i := 0; i < b.N; i++ {
 		Pangram("We promptly judged antique ivory buckles for the next prize")
 	}
