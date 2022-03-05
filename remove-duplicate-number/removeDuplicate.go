@@ -1,7 +1,6 @@
-package main
+package removeduplicatenumber
 
 import (
-	"fmt"
 	"sort"
 )
 
@@ -18,7 +17,7 @@ import (
 		3.	#input 	= [3,2,1]		#output = [1 2 3]
 */
 
-func removeDup(arr []int) []int {
+func removeDup1(arr []int) []int {
 	var result []int
 	hashmap := map[int]bool{}
 	for _, digit := range arr {
@@ -31,9 +30,9 @@ func removeDup(arr []int) []int {
 	return result
 }
 
-func main() {
-	fmt.Println(removeDup([]int{1, 2, 2, 3, 4, 5, 5, 6, 7}))          // [1 2 3 4 5 6 7]
-	fmt.Println(removeDup([]int{2, 2, 2, 3, 3, 3, 4, 5, 5, 5}))       // [2,3,4,5]
-	fmt.Println(removeDup([]int{5, 4, 2, 1, 3}))                      // [1 2 3 4 5]
-	fmt.Println(removeDup([]int{2, 3, 2, 4, 1, 2, 5, 4, 2, 1, 6, 6})) // [1 2 3 4 5 6]
-}
+// func mainaa() {
+// 	fmt.Println(removeDup([]int{1, 2, 2, 3, 4, 5, 5, 6, 7}))          // [1 2 3 4 5 6 7]
+// 	fmt.Println(removeDup([]int{2, 2, 2, 3, 3, 3, 4, 5, 5, 5}))       // [2,3,4,5]
+// 	fmt.Println(removeDup([]int{5, 4, 2, 1, 3}))                      // [1 2 3 4 5]
+// 	fmt.Println(removeDup([]int{2, 3, 2, 4, 1, 2, 5, 4, 2, 1, 6, 6})) // [1 2 3 4 5 6]
+// }

@@ -1,7 +1,6 @@
-package main
+package removeduplicatenumber
 
 import (
-	"fmt"
 	"sort"
 )
 
@@ -32,9 +31,9 @@ func removeDup(arr []int) []int {
 	return result
 }
 
-func main() {
-	fmt.Println(removeDup([]int{1, 2, 2, 3, 4, 5, 5, 6, 7}))          // [1 2 3 4 5 6 7]
-	fmt.Println(removeDup([]int{2, 2, 2, 3, 3, 3, 4, 5, 5, 5}))       // [2,3,4,5]
-	fmt.Println(removeDup([]int{5, 4, 2, 1, 3}))                      // [1 2 3 4 5]
-	fmt.Println(removeDup([]int{2, 3, 2, 4, 1, 2, 5, 4, 2, 1, 6, 6})) // [1 2 3 4 5 6]
-}
+// func mainas() {
+// 	fmt.Println(removeDup([]int{1, 2, 2, 3, 4, 5, 5, 6, 7}))          // [1 2 3 4 5 6 7]
+// 	fmt.Println(removeDup([]int{2, 2, 2, 3, 3, 3, 4, 5, 5, 5}))       // [2,3,4,5]
+// 	fmt.Println(removeDup([]int{5, 4, 2, 1, 3}))                      // [1 2 3 4 5]
+// 	fmt.Println(removeDup([]int{2, 3, 2, 4, 1, 2, 5, 4, 2, 1, 6, 6})) // [1 2 3 4 5 6]
+// }
