@@ -9,7 +9,7 @@ Buatlah sebuah fungsi yang dapat mengembalikan dua angka yang berasal dari input
 
 ### input:
 
-berupa angka integer dengn dua parameter:<br>
+berupa angka integer dengan dua parameter:<br>
 parameter <b>nums</b> = deretan angka positif array of integer yang tidak duplikat terurut/acak<br>
 parameter <b>target</b> = angkka bilangan bulat positif
 <br>
@@ -22,9 +22,9 @@ jika tidak terdapat angka yang dijumlahkan sama dengan target, maka kembalikan a
 
 ### example:
 
-1. <b>input</b> = nums[1 2 3 4 5 6], target = 3; <b>output</b> = [1 2] // Karena 1 + 2 = 3 (target) 
-2. <b>input</b> = nums[1 2 3 4 5 6], target = 5; <b>output</b> = [2 3] // Karena 2 + 3 = 5 (target) 
-3. <b>input</b> = nums[1, 4, 2, 5, 11, 12], target = 8; <b>output</b> = [-1] // Karea tidak ada angka yang tepat
+1. <b>input</b> = nums[1 2 3 4 5 6], target = 3; <b>output</b> = [1 2]    ---> Karena 1 + 2 = 3 (target) 
+2. <b>input</b> = nums[1 2 3 4 5 6], target = 5; <b>output</b> = [2 3]    ---> Karena 2 + 3 = 5 (target) 
+3. <b>input</b> = nums[1, 4, 2, 5, 11, 12], target = 8; <b>output</b> = [-1]   ---> Karea tidak ada angka yang tepat
 
 
 <i><b>*Solusi telah dilengkapi dengan unit test dan benchmark test</b></i>
