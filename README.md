@@ -16,7 +16,7 @@ Beberapa di antaranya meliputi:
 5. Anagram 
 6. Find Index of Sub String :heavy_check_mark:
 7. Palindrome :heavy_check_mark:
-8. Find Most Appear Number
+8. Find Most Appear Number :heavy_check_mark:
 9. Remove Duplicate Number
 10. Max Sub Array
 11. Pair With Target
