@@ -10,13 +10,14 @@ Buatlah sebuah fungsi yang dapat mengembalikan dua angka yang berasal dari input
 ### input:
 
 berupa angka integer dengan dua parameter:<br>
+kedua parameter input terdiri dari bilangan bulat positif<br>
 parameter <b>nums</b> = deretan angka positif array of integer yang tidak duplikat terurut/acak<br>
-parameter <b>target</b> = angkka bilangan bulat positif
+parameter <b>target</b> = target merupakan angka yang akan menjadi patokan untuk mencari angka berapa saja yang ada di <b>nums</b> yang jika dijumlahkan akan sama dengan <b>target</b>
 <br>
 
 ### output:
 
-dua angka yang diambil dari nums, yang jika angka tersebut dijumlahkan akan menghasilkan angka yang sama dengan target.\
+array of integer yang berisi dua angka yang diambil dari nums, yang jika angka tersebut dijumlahkan akan menghasilkan angka yang sama dengan target.\
 jika tidak terdapat angka yang dijumlahkan sama dengan target, maka kembalikan angka -1
 <br>
 
