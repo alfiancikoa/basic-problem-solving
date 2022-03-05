@@ -22,6 +22,7 @@ bilangan integer yang frekuensi kemunculannya paling besar
 1. input = [1 2 3 4 1]; Output = 1
 2. input = [1 2 2 3 3 4 5 6]; Output = 3
 3. input = [1 1 1 1 1 2]; Output = 1
+4. input = [1 2 3 4 5 6]; Output = 6
 
 <i><b>*Solusi telah dilengkapi dengan unit test dan benchmark test</b></i>
 
