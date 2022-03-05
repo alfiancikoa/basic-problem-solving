@@ -1,7 +1,7 @@
 # Soal Remove Duplicate
 
 <p align=justify><b>Remove Duplicate</b> adalah sebuah fungsi untuk menghilangkan atau mengabaikan angka yang sama atau duplikat, sehingga angka yang akan dimunculkan merupakan deretan angka yang tidak mempunyai kembaran atau kesamaan.</p>
-Contoh Palindrome:
+
 <br>
 
 <b>Problem:</b><br>
