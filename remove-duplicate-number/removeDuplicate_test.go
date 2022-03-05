@@ -68,6 +68,7 @@ func Test_RemoveDuplicate(t *testing.T) {
 		assert.Equal(t, []int{1, 2, 3, 4, 5, 6}, RmDupSolution1([]int{1, 1, 2, 2, 2, 3, 4, 4, 5, 6, 6, 6}))
 		assert.Equal(t, []int{1, 2, 3, 4, 5, 6}, RmDupSolution1([]int{1, 3, 3, 2, 4, 4, 5, 5, 6, 6, 6}))
 		assert.Equal(t, []int{1, 2}, RmDupSolution1([]int{1, 1, 1, 2, 2, 1, 1, 2, 1}))
+		assert.Equal(t, []int{1, 2, 3}, RmDupSolution1([]int{3, 2, 1}))
 		// PASS ok
 	})
 	t.Run("Test_RemoveDupSolution2", func(t *testing.T) {
@@ -76,6 +77,7 @@ func Test_RemoveDuplicate(t *testing.T) {
 		assert.Equal(t, []int{1, 2, 3, 4, 5}, RmDupSolution2([]int{1, 3, 3, 2, 4, 4, 5}))
 		assert.Equal(t, []int{1, 2, 3, 4, 5, 6}, RmDupSolution2([]int{1, 3, 3, 2, 4, 4, 5, 5, 6, 6, 6}))
 		assert.Equal(t, []int{1, 2}, RmDupSolution2([]int{1, 1, 1, 2, 2, 1, 1, 2, 1}))
+		assert.Equal(t, []int{1, 2, 3}, RmDupSolution2([]int{3, 2, 1}))
 		// PASS ok
 	})
 	t.Run("Test_RemoveDupSolution3", func(t *testing.T) {
@@ -84,6 +86,7 @@ func Test_RemoveDuplicate(t *testing.T) {
 		assert.Equal(t, []int{1, 2, 3, 4, 5}, RmDupSolution3([]int{1, 3, 3, 2, 4, 4, 5}))
 		assert.Equal(t, []int{1, 2, 3, 4, 5, 6}, RmDupSolution3([]int{1, 3, 3, 2, 4, 4, 5, 5, 6, 6, 6}))
 		assert.Equal(t, []int{1, 2}, RmDupSolution3([]int{1, 1, 1, 2, 2, 1, 1, 2, 1}))
+		assert.Equal(t, []int{1, 2, 3}, RmDupSolution3([]int{3, 2, 1}))
 		// PASS ok
 	})
 }
