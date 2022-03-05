@@ -22,9 +22,9 @@ jika tidak terdapat angka yang dijumlahkan sama dengan target, maka kembalikan a
 
 ### example:
 
-1. input = nums[1 2 3 4 5 6], target = 3; Output = [1 2] // Karena 1 + 2 = 3 (target) 
-2. input = nums[1 2 3 4 5 6], target = 5; Output = [2 3] // Karena 2 + 3 = 5 (target) 
-3. input = nums[1, 4, 2, 5, 11, 12], target = 8; Output = [-1] // Karea tidak ada angka yang tepat
+1. <b>input</b> = nums[1 2 3 4 5 6], target = 3; <b>output</b> = [1 2] // Karena 1 + 2 = 3 (target) 
+2. <b>input</b> = nums[1 2 3 4 5 6], target = 5; <b>output</b> = [2 3] // Karena 2 + 3 = 5 (target) 
+3. <b>input</b> = nums[1, 4, 2, 5, 11, 12], target = 8; <b>output</b> = [-1] // Karea tidak ada angka yang tepat
 
 
 <i><b>*Solusi telah dilengkapi dengan unit test dan benchmark test</b></i>
