@@ -24,7 +24,7 @@ func indexOf(a string, b string) int {
 */
 
 // Unit Testing dari Fungsi indexO di Atas
-func Test_indexOf(t *testing.T) {
+func Test_IndexOf(t *testing.T) {
 	assert.Equal(t, -1, indexOf("abcdef", "df"))
 	assert.Equal(t, 3, indexOf("abcdef", "de"))
 	assert.Equal(t, 3, indexOf("abcdef", "def"))
@@ -37,7 +37,7 @@ func Test_indexOf(t *testing.T) {
 }
 
 // Benchmark untuk menghitung seberapa cepat program kita dieksekusi
-func BenchmarkPangkat(b *testing.B) {
+func Benchmark_IndexOf(b *testing.B) {
 	for i := 0; i < b.N; i++ {
 		indexOf("abccdcdecdf", "cde")
 	}
