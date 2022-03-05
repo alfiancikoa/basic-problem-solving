@@ -9,9 +9,9 @@ Buatlah sebuah fungsi yang dapat mengembalikan dua angka yang berasal dari input
 
 ### input:
 
-berupa angka integer dengn dua parameter:
-parameter nums = deretan angka positif array of integer yang tidak duplikat terurut/acak
-parameter target = angkka bilangan bulat positif
+berupa angka integer dengn dua parameter:<br>
+parameter <b>nums</b> = deretan angka positif array of integer yang tidak duplikat terurut/acak<br>
+parameter <b>target</b> = angkka bilangan bulat positif
 <br>
 
 ### output:
