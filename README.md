@@ -17,7 +17,7 @@ Beberapa di antaranya meliputi:
 6. Find Index of Sub String :heavy_check_mark:
 7. Palindrome :heavy_check_mark:
 8. Find Most Appear Number :heavy_check_mark:
-9. Remove Duplicate Number
+9. Remove Duplicate Number :heavy_check_mark:
 10. Max Sub Array
 11. Pair With Target
 12. Exponential Number :heavy_check_mark:
