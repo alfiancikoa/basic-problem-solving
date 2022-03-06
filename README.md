@@ -35,7 +35,7 @@ Contoh Program di Atas dilengkapi Unit Testing dan Benchmark untuk perbandingan 
 <br>
 
 contoh soal di atas diambil berdasarkan pengalaman penulis<br>
-Cheers,<br>
+cheers,<br>
 alfiancikoa
 <br>
 <br>
