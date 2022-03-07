@@ -1,6 +1,4 @@
-package main
-
-import "fmt"
+package maxdifference
 
 /*
 	Problem:
@@ -30,11 +28,9 @@ func maximumDiff(arr []int) int {
 	return maxDiff
 }
 
-func main() {
-	fmt.Println(maximumDiff([]int{1, 2, 6, 4}))           // 5
-	fmt.Println(maximumDiff([]int{1, 3, 2, 4}))           // 3
-	fmt.Println(maximumDiff([]int{-1, -3, 2, 4}))         // 7
-	fmt.Println(maximumDiff([]int{3, 2, 4, 7}))           // 5
-	fmt.Println(maximumDiff([]int{2, 7, 9, 5, 1, 3, 5}))  // 7
-	fmt.Println(maximumDiff([]int{2, 7, 9, 5, 1, 5, 10})) // 9
-}
+// fmt.Println(maximumDiff([]int{1, 2, 6, 4}))           // 5
+// fmt.Println(maximumDiff([]int{1, 3, 2, 4}))           // 3
+// fmt.Println(maximumDiff([]int{-1, -3, 2, 4}))         // 7
+// fmt.Println(maximumDiff([]int{3, 2, 4, 7}))           // 5
+// fmt.Println(maximumDiff([]int{2, 7, 9, 5, 1, 3, 5}))  // 7
+// fmt.Println(maximumDiff([]int{2, 7, 9, 5, 1, 5, 10})) // 9
