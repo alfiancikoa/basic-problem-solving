@@ -1,6 +1,4 @@
-package main
-
-import "fmt"
+package maxsubarray
 
 /*
 	Problem:
@@ -28,8 +26,8 @@ func MaxSubArray(arr []int) int {
 	return max
 }
 
-func main() {
-	fmt.Println(MaxSubArray([]int{-2, -3, 4, -1, -2, 1, 5, -3})) // 7
-	fmt.Println(MaxSubArray([]int{-2, 3, -1, 7, -1}))            // 9
-	fmt.Println(MaxSubArray([]int{-1, -2, 8, -2, -1, 3, 6}))     // 14
-}
+// func main() {
+// 	fmt.Println(MaxSubArray([]int{-2, -3, 4, -1, -2, 1, 5, -3})) // 7
+// 	fmt.Println(MaxSubArray([]int{-2, 3, -1, 7, -1}))            // 9
+// 	fmt.Println(MaxSubArray([]int{-1, -2, 8, -2, -1, 3, 6}))     // 14
+// }
