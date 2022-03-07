@@ -18,7 +18,7 @@ Beberapa di antaranya meliputi:
 7. Palindrome :heavy_check_mark:
 8. Find Most Appear Number :heavy_check_mark:
 9. Remove Duplicate Number :heavy_check_mark:
-10. Max Sub Array
+10. Max Sub Array :heavy_check_mark:
 11. Pair With Target :heavy_check_mark:
 12. Exponential Number :heavy_check_mark:
 13. Max Different :heavy_check_mark:
