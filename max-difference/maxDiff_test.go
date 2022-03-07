@@ -28,6 +28,7 @@ func maxDiff(nums []int) int {
 	return maxDiff
 }
 
+// Unit Testing dari Fungsi Eksponensil di Atas
 func Test_MaxDiff(t *testing.T) {
 	assert.Equal(t, 0, maxDiff([]int{0}))
 	assert.Equal(t, 1, maxDiff([]int{1, 2}))
@@ -40,7 +41,7 @@ func Test_MaxDiff(t *testing.T) {
 }
 
 // Benchmark untuk menghitung seberapa cepat program kita dieksekusi
-func BenchmarkPangkat(b *testing.B) {
+func Benchmark_MaxDifferece(b *testing.B) {
 	for i := 0; i < b.N; i++ {
 		maxDiff([]int{2, 7, 9, 5, 1, 5, 10})
 	}
