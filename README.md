@@ -19,7 +19,7 @@ Beberapa di antaranya meliputi:
 8. Find Most Appear Number :heavy_check_mark:
 9. Remove Duplicate Number :heavy_check_mark:
 10. Max Sub Array
-11. Pair With Target
+11. Pair With Target :heavy_check_mark:
 12. Exponential Number :heavy_check_mark:
 13. Max Different
 14. Faktorial :heavy_check_mark:
