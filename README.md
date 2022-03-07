@@ -1,5 +1,5 @@
 # basic-problem-solving
-Teruntuk kawan2 ku yang sedang gelisah galau merana<br>
+Ter-untuk kawan-kawan ku yang sedang gelisah galau merana<br>
 Yukk!!! asah kemampuan logika dan problem solving kita, agar kiranya dapat bermanfaat di suatu hari nanti
 
 ```
