@@ -12,7 +12,7 @@ Beberapa di antaranya meliputi:
 1. Segitiga Pascal :heavy_check_mark:
 2. Bilangan Prima :heavy_check_mark:
 3. Bilangan Prima Eratosthenes :heavy_check_mark:
-4. Pangram  :heavy_check_mark:
+4. Pangram :heavy_check_mark:
 5. Anagram 
 6. Find Index of Sub String :heavy_check_mark:
 7. Palindrome :heavy_check_mark:
@@ -21,7 +21,7 @@ Beberapa di antaranya meliputi:
 10. Max Sub Array
 11. Pair With Target :heavy_check_mark:
 12. Exponential Number :heavy_check_mark:
-13. Max Different
+13. Max Different :heavy_check_mark:
 14. Faktorial :heavy_check_mark:
 15. Binary Search Tree
 16. Selection Sort
