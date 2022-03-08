@@ -12,8 +12,8 @@ dengan menggunakn algoritma binary search
 
 ### input:
 
-berupa angka integer dengn dua parameter:
-parameter arr = deretan angka array of integer yang telah terurut sortfirst
+berupa angka integer dengn dua parameter:<br>
+parameter arr = deretan angka array of integer yang telah terurut sortfirst<br>
 parameter target = angka int yang kan dicari pada deret arr
 <br>
 
