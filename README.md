@@ -24,7 +24,7 @@ Beberapa di antaranya meliputi:
 13. Max Different :heavy_check_mark:
 14. Faktorial :heavy_check_mark:
 15. Binary Search :heavy_check_mark:
-16. Binary Sort
+16. Binary Sort :heavy_check_mark:
 17. Linear Search
 18. Selection Sort
 19. Cheese Board
