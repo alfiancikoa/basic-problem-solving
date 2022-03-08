@@ -74,3 +74,14 @@ func Benchmark_BinarySearch(b *testing.B) {
 	}
 	// Result 21.20 ns/op
 }
+
+func Benchmark_BinarySearchRecursive(b *testing.B) {
+	arrNum := make([]int, 100)
+	for i := 0; i < 100; i++ {
+		arrNum[i] = i + 1
+	}
+	for i := 0; i < b.N; i++ {
+		BinarySearchRecursive(arrNum, 99, 0, len(arrNum))
+	}
+	// Result 47.66 ns/op
+}
