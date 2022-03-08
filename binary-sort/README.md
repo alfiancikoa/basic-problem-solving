@@ -15,7 +15,7 @@ Bilangan dapat berupa bilangan bulat positif ataupun negatif
 
 ### output:
 
-Berupa array of integer yang telah terurut dari yang terkecil ke yang terbesar
+Berupa array of integer satu dimensi yang telah terurut dari yang terkecil ke yang terbesar
 <br>
 
 ### example:
