@@ -36,7 +36,7 @@ func Test_BinarySearch(t *testing.T) {
 	}
 	assert.Equal(t, -1, BinarySearch([]int{1, 2, 3, 4, 5}, 6))
 	assert.Equal(t, 3, BinarySearch([]int{1, 2, 3, 4, 5}, 4))
-	assert.Equal(t, 76, BinarySearch(arrNum, 77))
+	assert.Equal(t, 94, BinarySearch(arrNum, 95))
 	// PASS ok
 }
 
