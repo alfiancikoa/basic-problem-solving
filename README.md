@@ -24,10 +24,12 @@ Beberapa di antaranya meliputi:
 13. Max Different :heavy_check_mark:
 14. Faktorial :heavy_check_mark:
 15. Binary Search :heavy_check_mark:
-16. Selection Sort
-17. Cheese Board
-18. Find Escape From Maze (Labirin)
-19. 
+16. Binary Sort
+17. Linear Search
+18. Selection Sort
+19. Cheese Board
+20. Find Escape From Maze (Labirin)
+21. 
    
     
  
