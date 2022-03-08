@@ -23,7 +23,7 @@ Beberapa di antaranya meliputi:
 12. Exponential Number :heavy_check_mark:
 13. Max Different :heavy_check_mark:
 14. Faktorial :heavy_check_mark:
-15. Binary Search Tree
+15. Binary Search :heavy_check_mark:
 16. Selection Sort
 17. Cheese Board
 18. Find Escape From Maze (Labirin)
