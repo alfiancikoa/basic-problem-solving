@@ -7,7 +7,6 @@
 <b>Problem:</b><br>
 Buatlah sebuah fungsi untuk mencari bilangan target pada sebuah deretan array of integer 1 dimensi
 dengan menggunakn algoritma binary search
-
 <br>
 
 ### input:
