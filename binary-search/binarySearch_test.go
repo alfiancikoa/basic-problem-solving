@@ -10,7 +10,7 @@ import (
 func BinarySearch(arr []int, target int) int {
 	var left, right int = 0, len(arr) - 1
 	for left <= right {
-		mid := (left + right) / 2
+		mid := ((right - left) / 2) + left
 		if target > arr[mid] {
 			left = mid + 1
 		} else if target < arr[mid] {
