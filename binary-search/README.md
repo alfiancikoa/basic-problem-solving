@@ -26,7 +26,8 @@ jika tidak ditemukan, maka kembalikan nilai -1
 
 1. Input = [1 2 3 4 5 6], target: 5 <br>Output = 4
 2. Input = [1 2 3 4 5 6], target: 2 <br>Output = 1
-3. Input = [1 2 3 4 5 6], target: 9 <br>Output = -1
+3. Input = [1 2], target: 2 <br>Output = 1
+4. Input = [1 2 3 4 5 6], target: 9 <br>Output = -1
 
 <br>
 
