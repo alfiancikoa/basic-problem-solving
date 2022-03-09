@@ -25,7 +25,7 @@ Beberapa di antaranya meliputi:
 14. Faktorial :heavy_check_mark:
 15. Binary Search :heavy_check_mark:
 16. Binary Sort :heavy_check_mark:
-17. Linear Search
+17. Linear Search :heavy_check_mark:
 18. Selection Sort
 19. Cheese Board
 20. Find Escape From Maze (Labirin)
