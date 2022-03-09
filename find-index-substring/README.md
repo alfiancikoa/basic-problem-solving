@@ -12,9 +12,9 @@ Buatlah sebuah fungsi untuk mencari keberadaan substring. kembalikan posisi inde
 
 ### input:
 
-berupa string dengan dua parameter:
-parameter a = string utama
-parameter b = substring yang akan dicari pada string utam (a)
+berupa string dengan dua parameter:<br>
+parameter <b>a</b> = string utama<br>
+parameter <b>b</b> = substring yang akan dicari pada string utama (a)<br>
 <br>
 
 ### output:
