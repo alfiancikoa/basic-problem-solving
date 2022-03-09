@@ -19,14 +19,14 @@ parameter <b>b</b> = substring yang akan dicari pada string utama (a)<br>
 
 ### output:
 
-Index keberadaan dari substring (b) jika terdapat di string utama (a). Jika substring (b) tidak terdapat pada string utama (a) maka kembalikan nilai -1
+Index keberadaan dari substring (b) jika terdapat di string utama (a).<br>Jika substring (b) tidak terdapat pada string utama (a) maka kembalikan nilai -1
 <br>
 
 ### example:
 
-1. input = "abcdef" , "de" ;          output = 3
-2. input = "abccccdef" , "cde" ;      output = 5
-3. input = "abcdef" , "df" ;          output =-1
+1. Input = a: "abcdef", b: "de"<br>Output = 3
+2. Input = a: "abccccdef", b: "cde"<br>Output = 5
+3. Input = a: "abcdef", b: "df"<br>Output = -1
 
 
 <i><b>*Solusi telah dilengkapi dengan unit test dan benchmark test</b></i>
