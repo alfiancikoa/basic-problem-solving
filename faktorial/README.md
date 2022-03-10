@@ -10,7 +10,7 @@
 
 ### Problem:
 
-Buatlah function untuk menentukan hasil dari faktorial bilangan yang di-inputkan <br>
+Buatlah function untuk menentukan hasil dari faktorial bilangan yang di-inputkan
 <br>
 
 ### input:
