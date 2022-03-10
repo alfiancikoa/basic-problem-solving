@@ -6,18 +6,18 @@ The list of all substrings of the string "apple" would be "apple", "appl", "pple
 <br>(Sumber: https://en.wikipedia.org/wiki/Substring)
 </p>
 
-<b>Problem:</b><br>
+### Problem:
 Buatlah sebuah fungsi untuk mencari keberadaan substring. kembalikan posisi indexnya
 <br>
 
 ### input:
 
-berupa string dengan dua parameter:<br>
-parameter <b>a</b> = string utama<br>
-parameter <b>b</b> = substring yang akan dicari pada string utama (a)<br>
+Berupa string dengan dua parameter:<br>
+Parameter <b>a</b> = string utama<br>
+Parameter <b>b</b> = substring yang akan dicari pada string utama (a)
 <br>
 
-### output:
+### Output:
 
 Index keberadaan dari substring (b) jika terdapat di string utama (a).<br>Jika substring (b) tidak terdapat pada string utama (a) maka kembalikan nilai -1
 <br>
@@ -27,7 +27,6 @@ Index keberadaan dari substring (b) jika terdapat di string utama (a).<br>Jika s
 1. Input = a: "abcdef", b: "de"<br>Output = 3
 2. Input = a: "abccccdef", b: "cde"<br>Output = 5
 3. Input = a: "abcdef", b: "df"<br>Output = -1
-
 
 <i><b>*Solusi telah dilengkapi dengan unit test dan benchmark test</b></i>
 
