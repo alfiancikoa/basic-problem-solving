@@ -24,7 +24,9 @@ Berupa kalimat atau kata bertipe string yang panjangnya sampai 65535 karakter
 
 ### Output:
 
-Hasil berupa <b>True</b> atau <b>False</b>
+Hasil berupa <br>
+<b>True</b> Jika input merupakan palindrome<br>
+<b>False</b> Jika input merupakan bukan palindrome
 <br>
 
 ### example:
