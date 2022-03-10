@@ -5,7 +5,7 @@
 
 ### Problem:
 
-Buatlah function untuk mengecek bilangan yang paling sering muncul. Apabila frekuensi kemunculan bilangan tersebut itu sama, maka pilih yang nilainya paling besar diantara yang lain. Untuk yang frekuensi kemunculan paling besar, nilainya tidak peduli lebih besar atau lebih kecil asalkan angka tersebut paling sering muncu.
+<p align=justify>Buatlah function untuk mengecek bilangan yang paling sering muncul. Apabila frekuensi kemunculan bilangan tersebut itu sama, maka pilih yang nilainya paling besar diantara yang lain. Untuk yang frekuensi kemunculan paling besar, nilainya tidak peduli lebih besar atau lebih kecil asalkan angka tersebut paling sering muncul.</p>
 <br>
 
 ### Input:
@@ -20,10 +20,10 @@ Bilangan integer yang frekuensi kemunculannya paling besar
 
 ### example:
 
-1. input = [1 2 3 4 1]<br>Output = 1
-2. input = [1 2 2 3 3 4 5 6]<br>Output = 3
-3. input = [1 1 1 1 1 2]<br>Output = 1
-4. input = [1 2 3 4 5 6]<br>Output = 6
+1. Input = [1 2 3 4 1]<br>Output = 1
+2. Input = [1 2 2 3 3 4 5 6]<br>Output = 3
+3. Input = [1 1 1 1 1 2]<br>Output = 1
+4. Input = [1 2 3 4 5 6]<br>Output = 6
 
 <i><b>*Solusi telah dilengkapi dengan unit test dan benchmark test</b></i>
 
