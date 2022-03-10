@@ -12,27 +12,27 @@ O P E R A
 R O T A S
 ```
 
-<br>
-<b>Problem:</b><br>
+### Problem:
+
 Buatlah Function untuk mengecek apakah kata atau kalimat yang dimasukkan sebagai input merupakan palindrome?
 <br>
 
-### input:
+### Input:
 
 Berupa kalimat atau kata bertipe string yang panjangnya sampai 65535 karakter
 <br>
 
-### output:
+### Output:
 
 Hasil berupa <b>True</b> atau <b>False</b>
 <br>
 
 ### example:
 
-1. input = "katak"          output = true
-2. input = "saras"          output = true
-3. input = "makan"          output = false
-4. input = "nasigoreng"     output = false
+1. Input = "katak" <br>         Output = true
+2. Input = "saras" <br>         Output = true
+3. Input = "makan" <br>         Output = false
+4. Input = "nasigoreng"<br>     Output = false
 
 <i><b>*Solusi telah dilengkapi dengan unit test dan benchmark test</b></i>
 
