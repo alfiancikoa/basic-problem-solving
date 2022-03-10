@@ -13,22 +13,22 @@
 Buatlah function untuk menentukan hasil dari faktorial bilangan yang di-inputkan
 <br>
 
-### input:
+### Input:
 
-berupa angka integer positif > 0 sampai n
+Berupa angka integer positif > 0 sampai n
 <br>
 
-### output:
+### Output:
 
 Hasil faktorial bilangagn input n
 <br>
 
-### example:
+### Example:
 
-1. input = 2 ;  output = 4
-2. input = 3 ;  output = 6
-3. input = 5 ;  output = 120
-4. input = 8 ;  output = 40.320
+1. Input = 2 ;  Output = 4
+2. Input = 3 ;  Output = 6
+3. Input = 5 ;  Output = 120
+4. Input = 8 ;  Output = 40.320
 
 <i><b>*Solusi telah dilengkapi dengan unit test dan benchmark test</b></i>
 
