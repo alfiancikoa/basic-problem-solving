@@ -6,7 +6,6 @@
 ### Problem:
 
 <p align=justify>Buatlah function untuk mengecek bilangan yang paling sering muncul. Apabila frekuensi kemunculan bilangan tersebut itu sama, maka pilih yang nilainya paling besar diantara yang lain. Untuk yang frekuensi kemunculan paling besar, nilainya tidak peduli lebih besar atau lebih kecil asalkan angka tersebut paling sering muncul.</p>
-<br>
 
 ### Input:
 
