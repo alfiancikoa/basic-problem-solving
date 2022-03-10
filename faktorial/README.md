@@ -1,4 +1,4 @@
-# Soal Bilangan Prima
+# Soal Faktorial
 
 <p align=justify><b>Faktorial</b> dari bilangan bulat positif dari n yang dilambangkan dengan n!,
 	adalah produk dari semua bilangan bulat positif yang kurang dari atau sama dengan n:
