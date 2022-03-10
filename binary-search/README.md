@@ -4,30 +4,31 @@
 (Sumber: https://id.wikipedia.org/wiki/Algoritma_pencarian_biner)
 </p>
 
-<b>Problem:</b><br>
+### Problem:
+
 Buatlah sebuah fungsi untuk mencari bilangan target pada sebuah deretan array of integer 1 dimensi
 dengan menggunakn algoritma binary search
 <br>
 
-### input:
+### Input:
 
-berupa angka integer dengn dua parameter:<br>
-parameter arr = deretan angka array of integer yang telah terurut sortfirst<br>
-parameter target = angka int yang kan dicari pada deret arr
+Berupa angka integer dengn dua parameter:<br>
+Parameter <b>arr</b> = deretan angka array of integer yang telah terurut sortfirst<br>
+Parameter <b>target</b> = angka int yang kan dicari pada deret arr
 <br>
 
-### output:
+### Output:
 
 Jika target terdapat pada list array of integer (arr) maka kembalikan indexnya<br>
 jika tidak ditemukan, maka kembalikan nilai -1
 <br>
 
-### example:
+### Example:
 
-1. Input = [1 2 3 4 5 6], target: 5 <br>Output = 4
-2. Input = [1 2 3 4 5 6], target: 2 <br>Output = 1
-3. Input = [1 2], target: 2 <br>Output = 1
-4. Input = [1 2 3 4 5 6], target: 9 <br>Output = -1
+1. Input = arr: [1 2 3 4 5 6], target: 5 <br>Output = 4
+2. Input = arr: [1 2 3 4 5 6], target: 2 <br>Output = 1
+3. Input = arr: [1 2], target: 2 <br>Output = 1
+4. Input = arr: [1 2 3 4 5 6], target: 9 <br>Output = -1
 
 <br>
 
