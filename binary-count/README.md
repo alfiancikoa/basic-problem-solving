@@ -16,7 +16,7 @@ Parameter <b>nomorBit</b>: merupakan flag bilangan yang akan dihitung jumlahnya 
 
 ### Output
 
-
+Hasil berupa bilangan bulat integer positif yang merepresentasikan jumlah bit 1 atau 0 pada bilangan biner yang dari hasil konversi bilangan desimal
 <br>
 
 ### Example
