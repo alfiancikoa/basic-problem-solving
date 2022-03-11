@@ -21,6 +21,7 @@ Hasil berupa bilangan bulat integer positif yang merepresentasikan jumlah bit 1 
 
 ### Example
 
+1. Input: angka= 13, nomorBit= 1<br>Output: 3<br>//jumlah angka 1 dari 1101 (biner 13) 
 <br>
 
 <i><b>*Solusi telah dilengkapi dengan unit test dan benchmark test</b></i>
