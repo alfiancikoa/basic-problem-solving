@@ -21,6 +21,13 @@ func BinaryCount(angka int, nomorBit int) interface{} {
 	return bit
 }
 
+/*
+	Note:
+	Untuk menjalankan Unit Test = go test -v -cover
+	Untuk menjalankan Benchmark = go test -bench=.
+
+*/
+
 // Unit Test untuk fungsi Binary Count di atas
 func TestBinaryConvertion(t *testing.T) {
 	// 13 = 1 1 0 1
