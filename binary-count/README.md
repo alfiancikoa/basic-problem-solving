@@ -9,6 +9,9 @@ Buatlah sebuah fungsi dengan input-an dua parameter yang dapat mengembalikan jum
 
 ### Input
 
+Input memiliki dua parameter yaitu:<br>
+Parameter <b>angka</b>: merupakan bilangan desimal positif integer dari 0 sampai 65536 
+Parameter <b>nomorBit</b>: merupakan flag bilangan yang akan dihitung jumlahnya pada bilangan biner dari hasil konversi bilangan desimal
 <br>
 
 ### Output
