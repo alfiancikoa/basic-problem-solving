@@ -6,6 +6,7 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
+// Fungsi untuk menghitung berapa banyak bit 1 atau 0 pada bilangan desimal yang diinputkan
 func BinaryCount(angka int, nomorBit int) interface{} {
 	if nomorBit > 1 || nomorBit < 0 {
 		return nil
