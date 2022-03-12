@@ -32,13 +32,13 @@ $kamus->Get(‘buah’);
 // mengembalikan hasil [‘pisang’, ‘jeruk’, ‘naga’, ‘anggur’]
 
 // Perhatikan baik-baik hasil pengujian di bawah ini
-$kamus->ambilSinonim(‘hewan’);
+$kamus->Get(‘hewan’);
 // mengembalikan hasil [‘kucing’, ‘kambing’]
 
-$kamus->ambilSinonim(‘kucing’);
+$kamus->Get(‘kucing’);
 // mengembalikan hasil [‘hewan’]
 
-$kamus->ambilSinonim(‘mawar’);
+$kamus->Get(‘mawar’);
 // mengembalikan hasil null
 ```
 
