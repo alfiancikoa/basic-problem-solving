@@ -48,14 +48,24 @@ func Test_Dictionary(t *testing.T) {
 		assert.Equal(t, "success", kamus.Add("buah", []string{"pisang", "jeruk"}))
 		assert.Equal(t, "success", kamus.Add("buah", []string{"anggur", "sirsak"}))
 		assert.Equal(t, "success", kamus.Add("hewan", []string{"kucing", "biawak"}))
+		// Pass OK
 	})
 	t.Run("Test_Get", func(t *testing.T) {
 		assert.Equal(t, []string{"pisang", "jeruk", "anggur", "sirsak"}, kamus.Get("buah"))
 		assert.Equal(t, []string{"buah"}, kamus.Get("sirsak"))
 		assert.Equal(t, []string{"hewan"}, kamus.Get("kucing"))
-
+		// Pass OK
 	})
 	t.Run("Test_GetIsEmpty", func(t *testing.T) {
 		assert.Equal(t, []string([]string(nil)), kamus.Get("flora"))
+		// Pass OK
 	})
+}
+
+func Benchmark_Dictionary(b *testing.B) {
+	kamus := Kamus{}
+	for i := 0; i < b.N; i++ {
+		kamus.Get("biawak")
+	}
+	// Result 28.62 ns/op
 }
