@@ -8,6 +8,7 @@ import (
 
 type Kamus map[string][]string
 
+// Fungsi untuk mencari element dalam kamus
 func findElement(str []string, substring string) bool {
 	for _, v := range str {
 		if substring == v {
@@ -17,6 +18,7 @@ func findElement(str []string, substring string) bool {
 	return false
 }
 
+// Fungsi untuk menamabah item ke dalam kamus
 func (k Kamus) Add(key string, values []string) string {
 	if k[key] == nil {
 		k[key] = append(k[key], values...)
@@ -30,6 +32,7 @@ func (k Kamus) Add(key string, values []string) string {
 	return "success"
 }
 
+// Fungsi untuk mendapatkan data dari kamus
 func (k Kamus) Get(word string) []string {
 	var result []string
 	for key, value := range k {
@@ -42,6 +45,13 @@ func (k Kamus) Get(word string) []string {
 	return result
 }
 
+/*
+	*Note:
+	Untuk menjalankan Unit Test = go test -v
+	Untuk menjalankan Benchmark = go test -bench=.
+*/
+
+// Unit Test dari fungsi keseluruhan di atas
 func Test_Dictionary(t *testing.T) {
 	kamus := Kamus{}
 	t.Run("Test_Add", func(t *testing.T) {
@@ -62,6 +72,7 @@ func Test_Dictionary(t *testing.T) {
 	})
 }
 
+// Benchmark untuk menghitung seberapa cepat program kita dieksekusi
 func Benchmark_Dictionary(b *testing.B) {
 	kamus := Kamus{}
 	for i := 0; i < b.N; i++ {
