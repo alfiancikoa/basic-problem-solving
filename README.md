@@ -27,7 +27,7 @@ Beberapa di antaranya meliputi:
 16. Binary Search :heavy_check_mark:
 17. Binary Sort :heavy_check_mark:
 18. Linear Search :heavy_check_mark:
-19. Dictionary
+19. Dictionary :heavy_check_mark:
 20. Selection Sort
 21. Cheese Board
 22. Find Escape From Maze (Labirin)
