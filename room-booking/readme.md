@@ -1,3 +1,11 @@
 # Room Booking
 
-<p align="justify"><b>Room Booking</b> merupakan contoh kasus di mana terdapat tamu (guest) dan kamar (room).</p>
+<p align="justify"><b>Room Booking</b> merupakan contoh kasus di mana terdapat tamu (guest) dan kamar (room). Jumlah tamu akan ditempatkan sesuai dengan jumlah kamar. Sebagai contoh:<br>
+  Contoh: 
+  1. Input: Guest= 4, Room= 2<br>
+     Output: [2 2]
+  2. Input: Guest= 5, Room= 5<br>
+     Output: [1 1 1 1 1]
+<br>
+
+</p>
