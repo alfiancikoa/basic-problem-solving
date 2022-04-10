@@ -8,5 +8,5 @@
      Output: [1 1 1 1 1]
 <br>
   Explain:<br>
-  Jadi bisa dibilang seluruh kamar (room) harus terisi dengan tamu, dan jika perlu isi setiap kamar harus disamakan. itu sebabnya ketika terdapat 5 tamu dan 5 kamar, maka masing-masin kamar akan terisi 1 tamu.<br>
+  Jadi bisa dibilang seluruh kamar (room) harus terisi dengan tamu, dan jika perlu isi setiap kamar harus disamakan. itu sebabnya ketika terdapat 5 tamu dan 5 kamar, maka masing-masing kamar akan terisi 1 tamu.<br>
 </p>
